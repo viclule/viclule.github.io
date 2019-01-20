@@ -1,22 +1,22 @@
 ---
 layout: frontpage
-title: Karl Broman
-description: Karl Broman is Professor in Biostatistics and Medical Informatics at University of Wisconsin - Madison; research in statistical genetics
-keywords: Broman, QTL, R/qtl, quantitative trait loci, statistics, statistical genetics, recombination
+title: Vicente Guerrero
+description: Vicente Guerrero is a science enthusiastic focused on machine learning
+keywords: science, machine learning, data science, python, model
 ---
 
 <div class="navbar">
   <div class="navbar-inner">
       <ul class="nav">
-          <li><a href="{{ BASE_PATH }}/assets/broman_cv.pdf">cv</a></li>
-          <li><a href="https://github.com/kbroman">github</a></li>
-          <li><a href="https://kbroman.org/blog">blog</a></li>
-          <li><a href="https://twitter.com/kwbroman">@kwbroman</a></li>
+          <li><a href="{{ BASE_PATH }}/assets/guerrero_cv.pdf">cv</a></li>
+          <li><a href="https://github.com/viclule">github</a></li>
+          <li><a href="https://www.idoengineeringstuff.com/blog">blog</a></li>
+          <li><a href="https://twitter.com/chente_chente1">@chente_chente1</a></li>
       </ul>
   </div>
 </div>
 
-<table class="wide">
+<!-- <table class="wide">
 <tr>
   <td class="left">
     <a href="pages/publpics/iplotCorr.html">
@@ -51,3 +51,4 @@ keywords: Broman, QTL, R/qtl, quantitative trait loci, statistics, statistical g
       </ul>
   </div>
 </div>
+ -->
