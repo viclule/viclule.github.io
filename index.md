@@ -8,9 +8,10 @@ keywords: science, machine learning, data science, python, model
 <div class="navbar">
   <div class="navbar-inner">
       <ul class="nav">
-          <li><a href="{{ BASE_PATH }}/assets/guerrero_cv.pdf">cv</a></li>
           <li><a href="https://github.com/viclule">github</a></li>
+          <li><a href="{{ BASE_PATH }}/pages/services/index">services</a></li>
           <li><a href="{{ BASE_PATH }}/pages/blog/index">blog</a></li>
+          <li><a href="{{ BASE_PATH }}/assets/guerrero_cv.pdf">cv</a></li>
           <li><a href="https://twitter.com/chente_chente1">@chente_chente1</a></li>
       </ul>
   </div>

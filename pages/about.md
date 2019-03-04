@@ -14,7 +14,7 @@ Since 2016 Vicente has been focusing in machine learning.
 
 [curriculum vitae ![CV as pdf](icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/guerrero_cv.pdf)<br/>
 [github](https://github.com/viclule)<br/>
-[blog](https://www.idoengineeringstuff.com/blog)
+[blog]({{ BASE_PATH }}/pages/blog/index)
 
 
 ---
