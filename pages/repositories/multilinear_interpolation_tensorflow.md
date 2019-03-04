@@ -16,7 +16,7 @@ title: Multilinear Interpolation
 ## Multilinear Interpolation - Implementation in TensorFlow
 
 #### Extension of the tf.image.resize_bilinear to the N dimensional case
-
+***
 
 Visit the github repository for the full code.
 [![GitHub](../icons16/github-icon.png)](https://github.com/viclule/image_resize_n_linear)
@@ -51,7 +51,7 @@ This is the image showing the results for the 3D test:
 [![Test for 3D](../../assets/repositories/multilinear_interpolation_tensorflow.png)]
 <br/>
 <br/>
-
+***
 #### Python code
 
 ```python

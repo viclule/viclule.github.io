@@ -17,6 +17,7 @@ title: Harris Corner Detector
 
 #### A first intruduction to GPU programming
 
+***
 
 Visit the github repository for the full code.
 [![GitHub](../icons16/github-icon.png)](https://github.com/viclule/pycuda_harris_corner_detector)
@@ -35,8 +36,7 @@ This is the image used to test the code:
 <br/>
 [![Detector example](../../assets/repositories/harris_corner_detector.png)]
 <br/>
-<br/>
-
+***
 #### Python code
 
 ```python
