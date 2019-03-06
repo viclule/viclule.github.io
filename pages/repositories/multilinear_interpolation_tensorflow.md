@@ -7,7 +7,7 @@ title: Multilinear Interpolation
   <div class="navbar-inner">
       <ul class="nav">
           <li><a href="harris_corner_detector.html">prev</a></li>
-          <li><a href="harris_corner_detector.html">next</a></li>
+          <li><a href="swarm_particle_optimization.html">next</a></li>
       </ul>
   </div>
 </div>

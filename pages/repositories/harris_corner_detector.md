@@ -6,7 +6,7 @@ title: Harris Corner Detector
 <div class="navbar">
   <div class="navbar-inner">
       <ul class="nav">
-          <li><a href="multilinear_interpolation_tensorflow.html">prev</a></li>
+          <li><a href="swarm_particle_optimization.html">prev</a></li>
           <li><a href="multilinear_interpolation_tensorflow.html">next</a></li>
       </ul>
   </div>

@@ -32,18 +32,19 @@ keywords: science, machine learning, data science, python, model
     </a>
   </td>
 </tr>
-<!-- <tr>
+<tr>
   <td class="left">
-    <a href="pages/publpics/samplemixups_fig7.html">
-        <img src="assets/publpics/samplemixups_fig7.png" alt="Broman et al. (2013) Fig 7" title="Broman et al. (2013) Fig 7"/>
+  <p align="left">Swarm Particle Optimization.</p>
+    <a href="pages/repositories/swarm_particle_optimization.html">
+        <img src="assets/repositories/swarm_particle_optimization.png" alt="SPO" title="SPO"/>
     </a>
   </td>
-  <td class="right">
+  <!-- <td class="right">
     <a href="pages/publpics/isletc6_fig4.html">
         <img src="assets/publpics/isletc6_fig4.png" alt="Tian et al. (2015) Fig 4" title="Tian et al. (2015) Fig 4"/>
     </a>
-  </td>
-</tr> -->
+  </td> -->
+</tr>
 </table>
 
 <!-- <div class="navbar">
