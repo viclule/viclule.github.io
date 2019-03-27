@@ -6,8 +6,8 @@ title: Python Development
 <div class="navbar">
   <div class="navbar-inner">
       <ul class="nav">
+          <li><a href="backend_development.html">backend development</a></li>
           <li><a href="machine_learning.html">machine learning</a></li>
-          <li><a href="python_development.html">python development</a></li>
       </ul>
   </div>
 </div>
