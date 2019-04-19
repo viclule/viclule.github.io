@@ -4,7 +4,7 @@ title: about
 description: Vicente Guerrero is a science enthusiastic focused on python development and machine learning
 ---
 
-Vicente Guerrero is a science enthusiastic focused on python-based development and machine learning.
+Vicente Guerrero is a science enthusiast focused on python-based development and machine learning.
 
 Vicente received a BS in [mechanical engineering](http://itcelaya.edu.mx/) in 2008, from the technical university of Celaya, Mexico, and MS in [mechatronics](https://www.fh-aachen.de/) in 2010, from the technical university of Aachen (FH Aachen).
 
