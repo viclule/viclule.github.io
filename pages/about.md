@@ -12,6 +12,10 @@ Vicente focused for the first part of his carrer in the developmet of algorithms
 
 Since 2016 Vicente has been focusing in python development and machine learning.
 
+<a href="https://www.mensa.org/">
+        <img src="../assets/about/mensa_member_small.png" alt="Mensa member" title="Mensa member"/>
+</a>
+
 [curriculum vitae ![CV as pdf](icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/guerrero_cv.pdf)<br/>
 [github](https://github.com/viclule)<br/>
 [blog]({{ BASE_PATH }}/pages/blog/index)
