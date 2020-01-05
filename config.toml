@@ -3,6 +3,8 @@ title = "Vicente Guerrero"
 
 theme = "hugo-coder"
 
+publishDir = "docs"
+
 languagecode = "en"
 defaultcontentlanguage = "en"
 [markup.goldmark.renderer]
