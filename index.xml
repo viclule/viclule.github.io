@@ -6,9 +6,98 @@
     <description>Recent content on Vicente Guerrero</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Sun, 05 Jan 2020 20:49:40 +0100</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python Development</title>
+      <link>/services/python-development/</link>
+      <pubDate>Sun, 05 Jan 2020 20:49:40 +0100</pubDate>
+      
+      <guid>/services/python-development/</guid>
+      <description>Yes, it can be done    “Python is a programming language that lets you work more quickly and integrate your systems more effectively. You can learn to use Python and see almost immediate gains in productivity and lower maintenance costs.” Python Official Site
+There are a wide range of applications:
+ Machine Learning API development Statistics. Precision and process reliability analysis Test automation. Web and Files Scraping Information processing and data analysis Automate the boring part of the job.</description>
+    </item>
+    
+    <item>
+      <title>Backend Development</title>
+      <link>/services/backend-development/</link>
+      <pubDate>Sun, 05 Jan 2020 20:49:28 +0100</pubDate>
+      
+      <guid>/services/backend-development/</guid>
+      <description>Encapsulate your application in an API    “In computer programming, an application programming interface (API) is a set of subroutine definitions, communication protocols, and tools for building software. In general terms, it is a set of clearly defined methods of communication among various components.
+A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>/services/machine-learning/</link>
+      <pubDate>Sun, 05 Jan 2020 20:49:17 +0100</pubDate>
+      
+      <guid>/services/machine-learning/</guid>
+      <description>Generate value from your data!    Modern systems and devices generate more data than never before and the tendency is to keep increasing. In previous years it was not feasible to extract value out of that data, but recent storage and processing price decreases are enabling new applications and business opportunities.
+There are a wide range of applications:
+ Machinery cost reduction. Replace expensive sensors with models relying on available data Anomaly detection.</description>
+    </item>
+    
+    <item>
+      <title>Swarm Particle Interpolation</title>
+      <link>/posts/swarm-particle-interpolation/</link>
+      <pubDate>Sun, 05 Jan 2020 20:48:43 +0100</pubDate>
+      
+      <guid>/posts/swarm-particle-interpolation/</guid>
+      <description>Adapted to the N dimensional case  Visit the github repository for the full code.    It is a professional implementation based on the article from Iran Macedo.  
+Theory []  
+&amp;ldquo;In computational science, particle swarm optimization (PSO) [1] is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. It solves a problem by having a population of candidate solutions, here dubbed particles, and moving these particles around in the search-space according to simple mathematical formulae over the particle&#39;s position and velocity.</description>
+    </item>
+    
+    <item>
+      <title>Multilinear Interpolation in tensorflow</title>
+      <link>/posts/multilinear-interpolation-tensorflow/</link>
+      <pubDate>Sun, 05 Jan 2020 20:48:21 +0100</pubDate>
+      
+      <guid>/posts/multilinear-interpolation-tensorflow/</guid>
+      <description>Extension of the tf.image.resize_bilinear to the N dimensional case  Visit the github repository for the full code.   
+The function extends the functionality of tf.image.resize_bilinear for N dimensional Tensors.  
+Strategy The strategy is fairly simple, tensors are interpolated two dimensions at a time using the already existant tf.image.resize_bilinear function.
+[]  
+Test   Building a 3D volume using a black image, an android image and a white image.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Sun, 05 Jan 2020 20:40:02 +0100</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>Vicente Guerrero Mannsfelderstr. 1 Cologne 50968 Germany Email: vic.lule@gmail.com Phone: (+49) 176 3271 5017     </description>
+    </item>
+    
+    <item>
+      <title>Harris corner detector on PyCUDA</title>
+      <link>/posts/pycuda-corner-detector/</link>
+      <pubDate>Sun, 05 Jan 2020 19:15:12 +0100</pubDate>
+      
+      <guid>/posts/pycuda-corner-detector/</guid>
+      <description>A first intruduction to GPU programming  Visit the github repository for the full code.   
+The function devides the image in four different parts to process them on different streams.
+These are the execution times for the different implementations:
+ Python Code -&amp;gt; ≈2.22 seconds PyCUDA – single stream -&amp;gt; ≈0.0018 seconds PyCUDA – four streams (with concurrency) -&amp;gt; ≈0.0015 seconds  This is the image used to test the code:   []</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sun, 05 Jan 2020 19:03:54 +0100</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Vicente Guerrero is a science enthusiast focused on python and java-based development and machine learning.
+Vicente received a BS in mechanical engineering in 2008, from the technical university of Celaya, Mexico, and MS in mechatronics in 2010, from the technical university of Aachen (FH Aachen).
+Vicente focused for the first part of his carrer in the developmet of algorithms for the alignment of optical components in optronic devices. First working as a research assistant at the IPT Fraunhofer Institute and later as a developer at MA Micro Automation.</description>
+    </item>
     
   </channel>
 </rss>
