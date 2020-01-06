@@ -3,58 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>idoengineeringstuff.com/de-de/categories/</loc>
+    <loc>/de-de/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="idoengineeringstuff.com/categories/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="idoengineeringstuff.com/de-de/categories/"
+                href="/de-de/categories/"
                 />
   </url>
   
   <url>
-    <loc>idoengineeringstuff.com/de-de/series/</loc>
+    <loc>/de-de/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="idoengineeringstuff.com/series/"
+                href="/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="idoengineeringstuff.com/de-de/series/"
+                href="/de-de/series/"
                 />
   </url>
   
   <url>
-    <loc>idoengineeringstuff.com/de-de/tags/</loc>
+    <loc>/de-de/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="idoengineeringstuff.com/tags/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="idoengineeringstuff.com/de-de/tags/"
+                href="/de-de/tags/"
                 />
   </url>
   
   <url>
-    <loc>idoengineeringstuff.com/de-de/</loc>
+    <loc>/de-de/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="idoengineeringstuff.com/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="idoengineeringstuff.com/de-de/"
+                href="/de-de/"
                 />
   </url>
   
