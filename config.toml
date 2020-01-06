@@ -3,7 +3,7 @@ title = "Vicente Guerrero"
 
 theme = "hugo-coder"
 
-publishDir = "docs"
+publishDir = "public"
 
 languagecode = "en"
 defaultcontentlanguage = "en"
