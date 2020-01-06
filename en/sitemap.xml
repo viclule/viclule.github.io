@@ -3,58 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
+    <loc>idoengineeringstuff.com/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="/de-de/categories/"
+                href="idoengineeringstuff.com/de-de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="idoengineeringstuff.com/categories/"
                 />
   </url>
   
   <url>
-    <loc>/series/</loc>
+    <loc>idoengineeringstuff.com/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="/de-de/series/"
+                href="idoengineeringstuff.com/de-de/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/series/"
+                href="idoengineeringstuff.com/series/"
                 />
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>idoengineeringstuff.com/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="/de-de/tags/"
+                href="idoengineeringstuff.com/de-de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="idoengineeringstuff.com/tags/"
                 />
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>idoengineeringstuff.com/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="/de-de/"
+                href="idoengineeringstuff.com/de-de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="idoengineeringstuff.com/"
                 />
   </url>
   
