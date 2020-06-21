@@ -25,10 +25,11 @@ disqusShortname = "yourdiscussshortname"
     description = "Vicente Guerrero's personal website"
     keywords = "blog,developer,personal,software"
     info = "Freelance Software Developer"
+    # avatarurl = "images/about/vicente_2020-06.png"
     avatarurl = "images/about/vicente_2019-01-20_small.jpg"
     footercontent = "Let's do stuff together."
 
-    dateformat = "January 2, 2020"
+    dateformat = "June 2, 2020"
 
     hideCredits = false
     hideCopyright = false
