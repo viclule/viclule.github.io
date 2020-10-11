@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Vicente Guerrero">
+    <meta name="description" content="A first intruduction to GPU programming Visit the github repository for the full code. GitHub
+The function devides the image in four different parts to process them on different streams.
+These are the execution times for the different implementations:
+ Python Code -&gt; ≈2.22 seconds PyCUDA – single stream -&gt; ≈0.0018 seconds PyCUDA – four streams (with concurrency) -&gt; ≈0.0015 seconds  This is the image used to test the code:">
+    <meta name="keywords" content="blog,developer,personal,software">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Harris corner detector on PyCUDA"/>
+<meta name="twitter:description" content="A first intruduction to GPU programming Visit the github repository for the full code. GitHub
+The function devides the image in four different parts to process them on different streams.
+These are the execution times for the different implementations:
+ Python Code -&gt; ≈2.22 seconds PyCUDA – single stream -&gt; ≈0.0018 seconds PyCUDA – four streams (with concurrency) -&gt; ≈0.0015 seconds  This is the image used to test the code:"/>
+
+    <meta property="og:title" content="Harris corner detector on PyCUDA" />
+<meta property="og:description" content="A first intruduction to GPU programming Visit the github repository for the full code. GitHub
+The function devides the image in four different parts to process them on different streams.
+These are the execution times for the different implementations:
+ Python Code -&gt; ≈2.22 seconds PyCUDA – single stream -&gt; ≈0.0018 seconds PyCUDA – four streams (with concurrency) -&gt; ≈0.0015 seconds  This is the image used to test the code:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/pycuda-corner-detector/" />
+
+
+
+    <title>
+  Harris corner detector on PyCUDA · Vicente Guerrero
+</title>
+
+    
+      <link rel="canonical" href="http://example.org/posts/pycuda-corner-detector/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.9836c03fe5c87d102278a33e86d0591ef36c89b1e17e8e547ebf84c05cee010e.css" integrity="sha256-mDbAP&#43;XIfRAieKM&#43;htBZHvNsibHhfo5Ufr&#43;EwFzuAQ4=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.717236c74e0a5208ef73964a9f44c6b443b689a95b270d8b2a40d0c012460dac.css" integrity="sha256-cXI2x04KUgjvc5ZKn0TGtEO2ialbJw2LKkDQwBJGDaw=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+      <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    
+
+    <meta name="generator" content="Hugo 0.62.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=" twemoji.parse(document.body); "
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Vicente Guerrero
+    </a>
+    
+      
+        <span id="dark-mode-toggle" class="float-right">
+          <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </span>
+      
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/projects/">Services</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="http://example.org/de-de/">Deutsch</a>
+              </li>
+            
+          
+            
+          
+        
+        
+          <li class="navigation-item separator">
+            <span>|</span>
+          </li>
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Harris corner detector on PyCUDA</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="/tags/pycuda/">pycuda</a>
+      <span class="separator">•</span>
+    <a href="/tags/image-processing/">image processing</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <h3 id="a-first-intruduction-to-gpu-programming">A first intruduction to GPU programming</h3>
+<p>Visit the github repository for the full code. <a href="https://github.com/viclule/pycuda_harris_corner_detector">GitHub</a></p>
+<p>The function devides the image in four different parts to process them on different streams.</p>
+<p>These are the execution times for the different implementations:</p>
+<ul>
+<li>Python Code -&gt; ≈2.22 seconds</li>
+<li>PyCUDA – single stream -&gt; ≈0.0018 seconds</li>
+<li>PyCUDA – four streams (with concurrency) -&gt; ≈0.0015 seconds</li>
+</ul>
+<p>This is the image used to test the code:</p>
+<p><img src="../../images/posts/harris_corner_detector.png" alt="Detector example"></p>
+<h3 id="python-code">Python code</h3>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#fff;font-weight:bold">from</span> string <span style="color:#fff;font-weight:bold">import</span> Template
+<span style="color:#fff;font-weight:bold">import</span> pycuda.driver <span style="color:#fff;font-weight:bold">as</span> drv
+<span style="color:#fff;font-weight:bold">import</span> pycuda.tools
+<span style="color:#fff;font-weight:bold">import</span> pycuda.autoinit
+<span style="color:#fff;font-weight:bold">from</span> pycuda.compiler <span style="color:#fff;font-weight:bold">import</span> SourceModule
+<span style="color:#fff;font-weight:bold">import</span> numpy <span style="color:#fff;font-weight:bold">as</span> np
+
+
+<span style="color:#fff;font-weight:bold">def</span> pycuda_multi_kernel(img, k_harris, thresh, executions):
+    <span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">    Finds and returns list of corners</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        :param img: grayscale image</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        :param k: Harris corner constant. Usually 0.04 - 0.06</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        :param thresh: The threshold above which a corner is counted</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        :param executions: Number of times to be executed</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        :return: corner_list: List with corners</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        :return: average_execution_time: Average execution time in seconds</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">    </span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span>
+    <span style="color:#007f7f"># jumping some lines ...</span>
+
+    <span style="color:#007f7f"># function template</span>
+    func_mod_template = Template(<span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">    #include&lt;stdio.h&gt;</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">    #define INDEX(a, b) a*${HEIGHT}+b</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">    __global__ void corners(</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        float *dest,</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        float *ixx,</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        float *ixy,</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        float *iyy,</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        int offset,</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        float k,</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        int threshold) {</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        unsigned int idx = threadIdx.x + threadIdx.y*blockDim.y +</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">                            (blockIdx.x*(blockDim.x*blockDim.y));</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        unsigned int a = idx/${HEIGHT};</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        unsigned int b = idx</span><span style="color:#0ff;font-weight:bold">%</span><span style="color:#0ff;font-weight:bold">${HEIGHT};</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        float sxx = 0;</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        float sxy = 0;</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        float syy = 0;</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        float det = 0;</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        float trace = 0;</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        float r = 0;</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        if ((a &gt;= offset) &amp; (a &lt;= (${WIDTH}-offset - 1)) &amp;</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">            (b &gt;= offset) &amp; (b &lt;= (${HEIGHT}-offset - 1))) {</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">            for (int bi = b - offset; bi &lt; b + offset + 1; ++bi) {</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">                for (int ai = a - offset; ai &lt; a + offset + 1; ++ai) {</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">                    sxx = sxx + ixx[INDEX(ai, bi)];</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">                    sxy = sxy + ixy[INDEX(ai, bi)];</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">                    syy = syy + iyy[INDEX(ai, bi)];</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">                }</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">            }</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">            det = sxx*syy - sxy*sxy;</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">            trace = sxx + syy;</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">            r = det - k*(trace*trace);</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">            if ((r/10) &gt; threshold)</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">                dest[INDEX(a, b)] = r;</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        }</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">    }</span><span style="color:#0ff;font-weight:bold">
+</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">    </span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span>)
+    <span style="color:#007f7f"># jumping some lines ...</span>
+
+    func_mod = SourceModule(func_mod_template.substitute(HEIGHT=k_height,
+                                                         WIDTH=k_width))
+    pycuda_corners = func_mod.get_function(<span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">&#34;</span><span style="color:#0ff;font-weight:bold">corners</span><span style="color:#0ff;font-weight:bold">&#34;</span>)
+</code></pre></div>
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Let's do stuff together.</p>
+      
+      
+        ©
+        
+          2019 -
+        
+        2020
+         Vicente Guerrero 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+      
+      <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

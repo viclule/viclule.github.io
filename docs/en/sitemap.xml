@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/algorithms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/analytics-algorithms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/backend-development/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/pycuda-corner-detector/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/image-processing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/machine-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/multilinear-interpolation-tensorflow/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/optimization/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/pycuda/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/projects/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/swarm-particle-interpolation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/tensorflow/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/projects/vocification/</loc>
+  </url>
+  
+</urlset>

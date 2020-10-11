@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/de-de/posts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/de-de/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/de-de/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/projects/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/de-de/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/de-de/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/de-de/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/de-de/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/de-de/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="http://example.org/de-de/about/"
+                />
+  </url>
+  
+</urlset>

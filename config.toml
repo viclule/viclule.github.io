@@ -14,6 +14,8 @@ pygmentscodefencesguesssyntax = true
 
 disqusShortname = ""
 
+publishDir = "docs"
+
 
 [params]
     author = "Vicente Guerrero"
