@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vicente Guerrero</title>
-    <link>http://example.org/</link>
+    <link>https://idoengineeringstuff.com/</link>
     <description>Recent content on Vicente Guerrero</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://idoengineeringstuff.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://example.org/about/</link>
+      <link>https://idoengineeringstuff.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/about/</guid>
+      <guid>https://idoengineeringstuff.com/about/</guid>
       <description>Hi there! I am a science enthusiast focused on python and java-based development, and machine learning.
 In 2008 I received a BS in mechanical engineering, from the technical university of Celaya, Mexico, and a MS degree in mechatronics in 2010, from the technical university of Aachen (FH Aachen).
 For the first part of my carrer I focused in the developmet of algorithms for the alignment of optical components in optronic devices.</description>
@@ -23,10 +23,10 @@ For the first part of my carrer I focused in the developmet of algorithms for th
     
     <item>
       <title>Analytics and Algorithms</title>
-      <link>http://example.org/projects/analytics-algorithms/</link>
+      <link>https://idoengineeringstuff.com/projects/analytics-algorithms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/projects/analytics-algorithms/</guid>
+      <guid>https://idoengineeringstuff.com/projects/analytics-algorithms/</guid>
       <description>Modern systems and devices generate more data than never before and the tendency is to keep increasing. In previous years it was not feasible to extract value out of that data, but recent storage and processing price decreases are enabling new applications and business opportunities.
 There are a wide range of applications:
  Machinery cost reduction. Replace expensive sensors with models relying on available data Anomaly detection. Detect in real time malfunctioning of devices based on historical data.</description>
@@ -34,10 +34,10 @@ There are a wide range of applications:
     
     <item>
       <title>Backend Development</title>
-      <link>http://example.org/projects/backend-development/</link>
+      <link>https://idoengineeringstuff.com/projects/backend-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/projects/backend-development/</guid>
+      <guid>https://idoengineeringstuff.com/projects/backend-development/</guid>
       <description>“In computer programming, an application programming interface (API) is a set of subroutine definitions, communication protocols, and tools for building software. In general terms, it is a set of clearly defined methods of communication among various components.
 A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer.” Wikipedia
 Backend development in Python/Java/Kotlin:
@@ -46,19 +46,19 @@ Backend development in Python/Java/Kotlin:
     
     <item>
       <title>Blog</title>
-      <link>http://example.org/posts/</link>
+      <link>https://idoengineeringstuff.com/posts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/</guid>
+      <guid>https://idoengineeringstuff.com/posts/</guid>
       <description>Multilinear Interpolation in tensorflow Harris corner detector on PyCUDA Swarm Particle Interpolation</description>
     </item>
     
     <item>
       <title>Contact me</title>
-      <link>http://example.org/contact/</link>
+      <link>https://idoengineeringstuff.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/contact/</guid>
+      <guid>https://idoengineeringstuff.com/contact/</guid>
       <description>Vicente Guerrero
 Mannsfelderstr. 1
 Cologne 50968
@@ -69,10 +69,10 @@ Phone: (+49) 176 3271 5017</description>
     
     <item>
       <title>Harris corner detector on PyCUDA</title>
-      <link>http://example.org/posts/pycuda-corner-detector/</link>
+      <link>https://idoengineeringstuff.com/posts/pycuda-corner-detector/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/pycuda-corner-detector/</guid>
+      <guid>https://idoengineeringstuff.com/posts/pycuda-corner-detector/</guid>
       <description>A first intruduction to GPU programming Visit the github repository for the full code. GitHub
 The function devides the image in four different parts to process them on different streams.
 These are the execution times for the different implementations:
@@ -81,10 +81,10 @@ These are the execution times for the different implementations:
     
     <item>
       <title>Multilinear Interpolation in tensorflow</title>
-      <link>http://example.org/posts/multilinear-interpolation-tensorflow/</link>
+      <link>https://idoengineeringstuff.com/posts/multilinear-interpolation-tensorflow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/multilinear-interpolation-tensorflow/</guid>
+      <guid>https://idoengineeringstuff.com/posts/multilinear-interpolation-tensorflow/</guid>
       <description>Extension of the tf.image.resize_bilinear to the N dimensional case Visit the github repository for the full code. GitHub
 The function extends the functionality of tf.image.resize_bilinear for N dimensional Tensors.
 Strategy The strategy is fairly simple, tensors are interpolated two dimensions at a time using the already existant tf.image.resize_bilinear function.
@@ -93,19 +93,19 @@ Test Building a 3D volume using a black image, an android image and a white imag
     
     <item>
       <title>Services</title>
-      <link>http://example.org/projects/</link>
+      <link>https://idoengineeringstuff.com/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/projects/</guid>
+      <guid>https://idoengineeringstuff.com/projects/</guid>
       <description>Backend Development Vocification Analytics and Algorithms</description>
     </item>
     
     <item>
       <title>Swarm Particle Interpolation</title>
-      <link>http://example.org/posts/swarm-particle-interpolation/</link>
+      <link>https://idoengineeringstuff.com/posts/swarm-particle-interpolation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/swarm-particle-interpolation/</guid>
+      <guid>https://idoengineeringstuff.com/posts/swarm-particle-interpolation/</guid>
       <description>Adapted to the N dimensional case  Visit the github repository for the full code. GitHub
 It is a professional implementation based on the article from Iran Macedo.
 Theory “In computational science, particle swarm optimization (PSO) [1] is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. It solves a problem by having a population of candidate solutions, here dubbed particles, and moving these particles around in the search-space according to simple mathematical formulae over the particle&#39;s position and velocity.</description>
@@ -113,10 +113,10 @@ Theory “In computational science, particle swarm optimization (PSO) [1] is a c
     
     <item>
       <title>Vocification</title>
-      <link>http://example.org/projects/vocification/</link>
+      <link>https://idoengineeringstuff.com/projects/vocification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/projects/vocification/</guid>
+      <guid>https://idoengineeringstuff.com/projects/vocification/</guid>
       <description>Vocification technologies allow organisations to integrate natural communication channels into their business operations.
  Automated call center. Save costs and reduce waiting times for your customers. Automated help desk. Reduce the response time for the most common issues. Vocified mobile applications.  Get in short time an AWS based system and pay only as you use it. No fixed payments.</description>
     </item>

@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Vicente Guerrero</title>
-    <link>http://example.org/tags/</link>
+    <link>https://idoengineeringstuff.com/tags/</link>
     <description>Recent content in Tags on Vicente Guerrero</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://idoengineeringstuff.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>algorithms</title>
-      <link>http://example.org/tags/algorithms/</link>
+      <link>https://idoengineeringstuff.com/tags/algorithms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/algorithms/</guid>
+      <guid>https://idoengineeringstuff.com/tags/algorithms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>image processing</title>
-      <link>http://example.org/tags/image-processing/</link>
+      <link>https://idoengineeringstuff.com/tags/image-processing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/image-processing/</guid>
+      <guid>https://idoengineeringstuff.com/tags/image-processing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>machine learning</title>
-      <link>http://example.org/tags/machine-learning/</link>
+      <link>https://idoengineeringstuff.com/tags/machine-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/machine-learning/</guid>
+      <guid>https://idoengineeringstuff.com/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>optimization</title>
-      <link>http://example.org/tags/optimization/</link>
+      <link>https://idoengineeringstuff.com/tags/optimization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/optimization/</guid>
+      <guid>https://idoengineeringstuff.com/tags/optimization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pycuda</title>
-      <link>http://example.org/tags/pycuda/</link>
+      <link>https://idoengineeringstuff.com/tags/pycuda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/pycuda/</guid>
+      <guid>https://idoengineeringstuff.com/tags/pycuda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tensorflow</title>
-      <link>http://example.org/tags/tensorflow/</link>
+      <link>https://idoengineeringstuff.com/tags/tensorflow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/tensorflow/</guid>
+      <guid>https://idoengineeringstuff.com/tags/tensorflow/</guid>
       <description></description>
     </item>
     

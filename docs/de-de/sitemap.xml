@@ -3,114 +3,114 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/de-de/posts/</loc>
+    <loc>https://idoengineeringstuff.com/de-de/posts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/posts/"
+                href="https://idoengineeringstuff.com/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://example.org/de-de/posts/"
+                href="https://idoengineeringstuff.com/de-de/posts/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/de-de/categories/</loc>
+    <loc>https://idoengineeringstuff.com/de-de/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/categories/"
+                href="https://idoengineeringstuff.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://example.org/de-de/categories/"
+                href="https://idoengineeringstuff.com/de-de/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/de-de/projects/</loc>
+    <loc>https://idoengineeringstuff.com/de-de/projects/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/projects/"
+                href="https://idoengineeringstuff.com/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://example.org/de-de/projects/"
+                href="https://idoengineeringstuff.com/de-de/projects/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/de-de/contact/</loc>
+    <loc>https://idoengineeringstuff.com/de-de/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/contact/"
+                href="https://idoengineeringstuff.com/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://example.org/de-de/contact/"
+                href="https://idoengineeringstuff.com/de-de/contact/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/de-de/series/</loc>
+    <loc>https://idoengineeringstuff.com/de-de/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/series/"
+                href="https://idoengineeringstuff.com/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://example.org/de-de/series/"
+                href="https://idoengineeringstuff.com/de-de/series/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/de-de/tags/</loc>
+    <loc>https://idoengineeringstuff.com/de-de/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/tags/"
+                href="https://idoengineeringstuff.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://example.org/de-de/tags/"
+                href="https://idoengineeringstuff.com/de-de/tags/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/de-de/</loc>
+    <loc>https://idoengineeringstuff.com/de-de/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/"
+                href="https://idoengineeringstuff.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://example.org/de-de/"
+                href="https://idoengineeringstuff.com/de-de/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/de-de/about/</loc>
+    <loc>https://idoengineeringstuff.com/de-de/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/about/"
+                href="https://idoengineeringstuff.com/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="http://example.org/de-de/about/"
+                href="https://idoengineeringstuff.com/de-de/about/"
                 />
   </url>
   
