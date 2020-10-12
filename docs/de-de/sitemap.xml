@@ -3,6 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://idoengineeringstuff.com/de-de/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://idoengineeringstuff.com/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="https://idoengineeringstuff.com/de-de/about/"
+                />
+  </url>
+  
+  <url>
     <loc>https://idoengineeringstuff.com/de-de/posts/</loc>
     <xhtml:link
                 rel="alternate"
@@ -97,20 +111,6 @@
                 rel="alternate"
                 hreflang="de-de"
                 href="https://idoengineeringstuff.com/de-de/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://idoengineeringstuff.com/de-de/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://idoengineeringstuff.com/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="https://idoengineeringstuff.com/de-de/about/"
                 />
   </url>
   

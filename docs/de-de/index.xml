@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>About</title>
+      <link>https://idoengineeringstuff.com/de-de/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://idoengineeringstuff.com/de-de/about/</guid>
+      <description>Hi there! I am a science enthusiast focused on python and java-based development, and machine learning.
+In 2008 I received a BS in mechanical engineering, from the technical university of Celaya, Mexico, and a MS degree in mechatronics in 2010, from the technical university of Aachen (FH Aachen).
+For the first part of my carrer I focused in the developmet of algorithms for the alignment of optical components in optronic devices.</description>
+    </item>
+    
+    <item>
       <title>Blog</title>
       <link>https://idoengineeringstuff.com/de-de/posts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -40,17 +51,6 @@ Cologne 50968
 Germany
 Email: hello@idoengineeringstuff.com
 Phone: (+49) 176 3271 5017</description>
-    </item>
-    
-    <item>
-      <title>Über</title>
-      <link>https://idoengineeringstuff.com/de-de/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://idoengineeringstuff.com/de-de/about/</guid>
-      <description>Hi there! I am a science enthusiast focused on python and java-based development, and machine learning.
-In 2008 I received a BS in mechanical engineering, from the technical university of Celaya, Mexico, and a MS degree in mechatronics in 2010, from the technical university of Aachen (FH Aachen).
-For the first part of my carrer I focused in the developmet of algorithms for the alignment of optical components in optronic devices.</description>
     </item>
     
   </channel>
