@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Vicente Guerrero</title>
-    <link>https://idoengineeringstuff.com/tags/</link>
+    <link>https://vicenteguerrero.tech/tags/</link>
     <description>Recent content in Tags on Vicente Guerrero</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://idoengineeringstuff.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vicenteguerrero.tech/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>algorithms</title>
-      <link>https://idoengineeringstuff.com/tags/algorithms/</link>
+      <link>https://vicenteguerrero.tech/tags/algorithms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://idoengineeringstuff.com/tags/algorithms/</guid>
+      <guid>https://vicenteguerrero.tech/tags/algorithms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>image processing</title>
-      <link>https://idoengineeringstuff.com/tags/image-processing/</link>
+      <link>https://vicenteguerrero.tech/tags/image-processing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://idoengineeringstuff.com/tags/image-processing/</guid>
+      <guid>https://vicenteguerrero.tech/tags/image-processing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>machine learning</title>
-      <link>https://idoengineeringstuff.com/tags/machine-learning/</link>
+      <link>https://vicenteguerrero.tech/tags/machine-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://idoengineeringstuff.com/tags/machine-learning/</guid>
+      <guid>https://vicenteguerrero.tech/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>optimization</title>
-      <link>https://idoengineeringstuff.com/tags/optimization/</link>
+      <link>https://vicenteguerrero.tech/tags/optimization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://idoengineeringstuff.com/tags/optimization/</guid>
+      <guid>https://vicenteguerrero.tech/tags/optimization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pycuda</title>
-      <link>https://idoengineeringstuff.com/tags/pycuda/</link>
+      <link>https://vicenteguerrero.tech/tags/pycuda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://idoengineeringstuff.com/tags/pycuda/</guid>
+      <guid>https://vicenteguerrero.tech/tags/pycuda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tensorflow</title>
-      <link>https://idoengineeringstuff.com/tags/tensorflow/</link>
+      <link>https://vicenteguerrero.tech/tags/tensorflow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://idoengineeringstuff.com/tags/tensorflow/</guid>
+      <guid>https://vicenteguerrero.tech/tags/tensorflow/</guid>
       <description></description>
     </item>
     

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Vicente Guerrero</title>
-    <link>https://idoengineeringstuff.com/projects/</link>
+    <link>https://vicenteguerrero.tech/projects/</link>
     <description>Recent content in Projects on Vicente Guerrero</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://idoengineeringstuff.com/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vicenteguerrero.tech/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Analytics and Algorithms</title>
-      <link>https://idoengineeringstuff.com/projects/analytics-algorithms/</link>
+      <link>https://vicenteguerrero.tech/projects/analytics-algorithms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://idoengineeringstuff.com/projects/analytics-algorithms/</guid>
+      <guid>https://vicenteguerrero.tech/projects/analytics-algorithms/</guid>
       <description>Modern systems and devices generate more data than never before and the tendency is to keep increasing. In previous years it was not feasible to extract value out of that data, but recent storage and processing price decreases are enabling new applications and business opportunities.
 There are a wide range of applications:
  Machinery cost reduction. Replace expensive sensors with models relying on available data Anomaly detection. Detect in real time malfunctioning of devices based on historical data.</description>
@@ -23,10 +23,10 @@ There are a wide range of applications:
     
     <item>
       <title>Backend Development</title>
-      <link>https://idoengineeringstuff.com/projects/backend-development/</link>
+      <link>https://vicenteguerrero.tech/projects/backend-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://idoengineeringstuff.com/projects/backend-development/</guid>
+      <guid>https://vicenteguerrero.tech/projects/backend-development/</guid>
       <description>“In computer programming, an application programming interface (API) is a set of subroutine definitions, communication protocols, and tools for building software. In general terms, it is a set of clearly defined methods of communication among various components.
 A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer.” Wikipedia
 Backend development in Python/Java/Kotlin:
@@ -35,10 +35,10 @@ Backend development in Python/Java/Kotlin:
     
     <item>
       <title>Vocification</title>
-      <link>https://idoengineeringstuff.com/projects/vocification/</link>
+      <link>https://vicenteguerrero.tech/projects/vocification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://idoengineeringstuff.com/projects/vocification/</guid>
+      <guid>https://vicenteguerrero.tech/projects/vocification/</guid>
       <description>Vocification technologies allow organisations to integrate natural communication channels into their business operations.
  Automated call center. Save costs and reduce waiting times for your customers. Automated help desk. Reduce the response time for the most common issues. Vocified mobile applications.  Get in short time an AWS based system and pay only as you use it. No fixed payments.
 print(&amp;#39;it can be done!</description>

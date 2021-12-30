@@ -3,171 +3,171 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://idoengineeringstuff.com/about/</loc>
+    <loc>https://vicenteguerrero.tech/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="https://idoengineeringstuff.com/de-de/about/"
+                href="https://vicenteguerrero.tech/de-de/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://idoengineeringstuff.com/about/"
+                href="https://vicenteguerrero.tech/about/"
                 />
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/tags/algorithms/</loc>
+    <loc>https://vicenteguerrero.tech/tags/algorithms/</loc>
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/projects/analytics-algorithms/</loc>
+    <loc>https://vicenteguerrero.tech/projects/analytics-algorithms/</loc>
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/projects/backend-development/</loc>
+    <loc>https://vicenteguerrero.tech/projects/backend-development/</loc>
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/posts/</loc>
+    <loc>https://vicenteguerrero.tech/posts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="https://idoengineeringstuff.com/de-de/posts/"
+                href="https://vicenteguerrero.tech/de-de/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://idoengineeringstuff.com/posts/"
+                href="https://vicenteguerrero.tech/posts/"
                 />
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/categories/</loc>
+    <loc>https://vicenteguerrero.tech/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="https://idoengineeringstuff.com/de-de/categories/"
+                href="https://vicenteguerrero.tech/de-de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://idoengineeringstuff.com/categories/"
+                href="https://vicenteguerrero.tech/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/contact/</loc>
+    <loc>https://vicenteguerrero.tech/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="https://idoengineeringstuff.com/de-de/contact/"
+                href="https://vicenteguerrero.tech/de-de/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://idoengineeringstuff.com/contact/"
+                href="https://vicenteguerrero.tech/contact/"
                 />
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/posts/pycuda-corner-detector/</loc>
+    <loc>https://vicenteguerrero.tech/posts/pycuda-corner-detector/</loc>
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/tags/image-processing/</loc>
+    <loc>https://vicenteguerrero.tech/tags/image-processing/</loc>
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/tags/machine-learning/</loc>
+    <loc>https://vicenteguerrero.tech/tags/machine-learning/</loc>
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/posts/multilinear-interpolation-tensorflow/</loc>
+    <loc>https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/</loc>
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/tags/optimization/</loc>
+    <loc>https://vicenteguerrero.tech/tags/optimization/</loc>
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/posts/</loc>
+    <loc>https://vicenteguerrero.tech/posts/</loc>
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/projects/</loc>
+    <loc>https://vicenteguerrero.tech/projects/</loc>
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/tags/pycuda/</loc>
+    <loc>https://vicenteguerrero.tech/tags/pycuda/</loc>
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/series/</loc>
+    <loc>https://vicenteguerrero.tech/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="https://idoengineeringstuff.com/de-de/series/"
+                href="https://vicenteguerrero.tech/de-de/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://idoengineeringstuff.com/series/"
+                href="https://vicenteguerrero.tech/series/"
                 />
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/projects/</loc>
+    <loc>https://vicenteguerrero.tech/projects/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="https://idoengineeringstuff.com/de-de/projects/"
+                href="https://vicenteguerrero.tech/de-de/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://idoengineeringstuff.com/projects/"
+                href="https://vicenteguerrero.tech/projects/"
                 />
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/posts/swarm-particle-interpolation/</loc>
+    <loc>https://vicenteguerrero.tech/posts/swarm-particle-interpolation/</loc>
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/tags/</loc>
+    <loc>https://vicenteguerrero.tech/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="https://idoengineeringstuff.com/de-de/tags/"
+                href="https://vicenteguerrero.tech/de-de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://idoengineeringstuff.com/tags/"
+                href="https://vicenteguerrero.tech/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/tags/tensorflow/</loc>
+    <loc>https://vicenteguerrero.tech/tags/tensorflow/</loc>
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/</loc>
+    <loc>https://vicenteguerrero.tech/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-de"
-                href="https://idoengineeringstuff.com/de-de/"
+                href="https://vicenteguerrero.tech/de-de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://idoengineeringstuff.com/"
+                href="https://vicenteguerrero.tech/"
                 />
   </url>
   
   <url>
-    <loc>https://idoengineeringstuff.com/projects/vocification/</loc>
+    <loc>https://vicenteguerrero.tech/projects/vocification/</loc>
   </url>
   
 </urlset>
