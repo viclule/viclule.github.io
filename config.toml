@@ -6,7 +6,7 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-paginate = 20
+paginate = 20 
 
 pygmentsstyle = "b2"
 pygmentscodefences = true

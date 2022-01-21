@@ -8,5 +8,4 @@ Mannsfelderstr. 1\
 Cologne 50968\
 Germany
 
-Email: hello@idoengineeringstuff.com\
-Phone: (+49) 176 3271 5017
+Email: vic.lule@googlemail.com
