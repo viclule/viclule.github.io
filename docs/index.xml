@@ -13,7 +13,7 @@
       
       <guid>https://vicenteguerrero.tech/about/</guid>
       <description>Hi there! I am a science enthusiast focused on python and rust software development, and machine learning.
-In 2008 I received a BS in mechanical engineering, from the technical university of Celaya, Mexico, and a MS degree in mechatronics in 2010, from the technical university of Aachen (FH Aachen).
+I hold a BS in mechanical engineering, from the technical university of Celaya, Mexico, and a MS degree in mechatronics in 2010, from the technical university of Aachen (FH Aachen). Thanks to this I can understand engineering and computers.
 For the first part of my carrer I focused in the developmet of algorithms for the alignment of optical components in optronic devices.</description>
     </item>
     
@@ -61,7 +61,7 @@ Swarm Particle Interpolation</description>
 Mannsfelderstr. 1
 Cologne 50968
 Germany
-Email: vic.lule@googlemail.com</description>
+Email: vic.lule@gmail.com</description>
     </item>
     
     <item>
@@ -89,6 +89,16 @@ Test Building a 3D volume using a black image, an android image and a white imag
     </item>
     
     <item>
+      <title>Rust&amp;Python</title>
+      <link>https://vicenteguerrero.tech/projects/rust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vicenteguerrero.tech/projects/rust/</guid>
+      <description>Python is great! Yes, but sometimes the language just can not do things fast enough. Luckily, the Python Community is very dynamic and open to ideas to solve this. One of this, is to use Rust in combination with Python to accelerate your code.
+I can help you to identify and migrate to Rust the sections of your code that would benefit from it, keeping a Python API to keep the life of your developers simple.</description>
+    </item>
+    
+    <item>
       <title>Services</title>
       <link>https://vicenteguerrero.tech/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -96,7 +106,7 @@ Test Building a 3D volume using a black image, an android image and a white imag
       <guid>https://vicenteguerrero.tech/projects/</guid>
       <description>Backend Development
 Analytics and Algorithms
-Vocification</description>
+Rust&amp;amp;Python</description>
     </item>
     
     <item>
@@ -108,17 +118,6 @@ Vocification</description>
       <description>Adapted to the N dimensional case Visit the github repository for the full code. GitHub
 It is a professional implementation based on the article from Iran Macedo.
 Theory “In computational science, particle swarm optimization (PSO) [1] is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. It solves a problem by having a population of candidate solutions, here dubbed particles, and moving these particles around in the search-space according to simple mathematical formulae over the particle&amp;rsquo;s position and velocity.</description>
-    </item>
-    
-    <item>
-      <title>Vocification</title>
-      <link>https://vicenteguerrero.tech/projects/vocification/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vicenteguerrero.tech/projects/vocification/</guid>
-      <description>Vocification technologies allow organisations to integrate natural communication channels into their business operations.
-Automated call center. Save costs and reduce waiting times for your customers. Automated help desk. Reduce the response time for the most common issues. Vocified mobile applications. Get in short time an AWS based system and pay only as you use it. No fixed payments.
-print(&amp;#39;it can be done!&amp;#39;) </description>
     </item>
     
   </channel>

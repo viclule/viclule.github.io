@@ -72,6 +72,8 @@
   </url><url>
     <loc>https://vicenteguerrero.tech/tags/pycuda/</loc>
   </url><url>
+    <loc>https://vicenteguerrero.tech/projects/rust/</loc>
+  </url><url>
     <loc>https://vicenteguerrero.tech/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -123,7 +125,5 @@
                 hreflang="en"
                 href="https://vicenteguerrero.tech/"
                 />
-  </url><url>
-    <loc>https://vicenteguerrero.tech/projects/vocification/</loc>
   </url>
 </urlset>

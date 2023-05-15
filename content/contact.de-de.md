@@ -8,4 +8,4 @@ Mannsfelderstr. 1\
 Cologne 50968\
 Germany
 
-Email: vic.lule@googlemail.com
+Email: vic.lule@gmail.com

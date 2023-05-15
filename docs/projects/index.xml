@@ -30,14 +30,13 @@ Integration with databases Integration in CI/CD Deployment to a cloud service, s
     </item>
     
     <item>
-      <title>Vocification</title>
-      <link>https://vicenteguerrero.tech/projects/vocification/</link>
+      <title>Rust&amp;Python</title>
+      <link>https://vicenteguerrero.tech/projects/rust/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://vicenteguerrero.tech/projects/vocification/</guid>
-      <description>Vocification technologies allow organisations to integrate natural communication channels into their business operations.
-Automated call center. Save costs and reduce waiting times for your customers. Automated help desk. Reduce the response time for the most common issues. Vocified mobile applications. Get in short time an AWS based system and pay only as you use it. No fixed payments.
-print(&amp;#39;it can be done!&amp;#39;) </description>
+      <guid>https://vicenteguerrero.tech/projects/rust/</guid>
+      <description>Python is great! Yes, but sometimes the language just can not do things fast enough. Luckily, the Python Community is very dynamic and open to ideas to solve this. One of this, is to use Rust in combination with Python to accelerate your code.
+I can help you to identify and migrate to Rust the sections of your code that would benefit from it, keeping a Python API to keep the life of your developers simple.</description>
     </item>
     
   </channel>

@@ -128,10 +128,10 @@ publishDir = "docs"
             weight = 1
             url = "about/"
 
-            [[languages.en.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
+#            [[languages.en.menu.main]]
+#            name = "Blog"
+#            weight = 2
+#            url = "posts/"
 
             [[languages.en.menu.main]]
             name = "Services"
@@ -162,10 +162,10 @@ publishDir = "docs"
             weight = 1
             url = "about/"
 
-            [[languages.de-de.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
+#            [[languages.de-de.menu.main]]
+#            name = "Blog"
+#            weight = 2
+#            url = "posts/"
 
             [[languages.de-de.menu.main]]
             name = "Dienste"
