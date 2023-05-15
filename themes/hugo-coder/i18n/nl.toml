@@ -1,0 +1,58 @@
+[categories]
+one = "Categorie"
+other = "categories"
+
+[tags]
+one = "Label"
+other = "tags"
+
+[series]
+one = "Serie"
+other = "series"
+
+[authors]
+one = "Auteur"
+other = "authors"
+
+[posts]
+other = "Berichten"
+
+[reading_time]
+one = "Eén minuut leestijd"
+other = "{{ .Count }} minuten leestijd"
+
+[page_not_found]
+other = "Pagina niet gevonden"
+
+[page_does_not_exist]
+other = "Sorry, deze pagina bestaat niet."
+
+[head_back]
+other = "U kunt terugkeren naar de <a href=\"{{ . }}\">thuispagina</a>."
+
+[powered_by]
+other = "Aangedreven door"
+
+[see_also]
+other = "Zie ook in"
+
+[note]
+other = "note"
+
+[tip]
+other = "tip"
+
+[example]
+other = "example"
+
+[question]
+other = "question"
+
+[info]
+other = "info"
+
+[warning]
+other = "warning"
+
+[error]
+other = "error"
