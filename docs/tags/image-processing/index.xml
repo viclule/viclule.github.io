@@ -5,11 +5,7 @@
     <link>https://vicenteguerrero.tech/tags/image-processing/</link>
     <description>Recent content in image processing on Vicente Guerrero</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://vicenteguerrero.tech/tags/image-processing/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://vicenteguerrero.tech/tags/image-processing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Harris corner detector on PyCUDA</title>
       <link>https://vicenteguerrero.tech/posts/pycuda-corner-detector/</link>
@@ -19,7 +15,7 @@
       <description>A first intruduction to GPU programming Visit the github repository for the full code. GitHub
 The function devides the image in four different parts to process them on different streams.
 These are the execution times for the different implementations:
- Python Code -&amp;gt; ≈2.22 seconds PyCUDA – single stream -&amp;gt; ≈0.0018 seconds PyCUDA – four streams (with concurrency) -&amp;gt; ≈0.0015 seconds  This is the image used to test the code:</description>
+Python Code -&amp;gt; ≈2.22 seconds PyCUDA – single stream -&amp;gt; ≈0.0018 seconds PyCUDA – four streams (with concurrency) -&amp;gt; ≈0.0015 seconds This is the image used to test the code:</description>
     </item>
     
     <item>

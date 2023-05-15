@@ -5,11 +5,7 @@
     <link>https://vicenteguerrero.tech/de-de/</link>
     <description>Recent content on Vicente Guerrero</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://vicenteguerrero.tech/de-de/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://vicenteguerrero.tech/de-de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://vicenteguerrero.tech/de-de/about/</link>

@@ -5,11 +5,7 @@
     <link>https://vicenteguerrero.tech/projects/</link>
     <description>Recent content in Projects on Vicente Guerrero</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://vicenteguerrero.tech/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://vicenteguerrero.tech/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analytics and Algorithms</title>
       <link>https://vicenteguerrero.tech/projects/analytics-algorithms/</link>
@@ -18,7 +14,7 @@
       <guid>https://vicenteguerrero.tech/projects/analytics-algorithms/</guid>
       <description>Modern systems and devices generate more data than never before and the tendency is to keep increasing. In previous years it was not feasible to extract value out of that data, but recent storage and processing price decreases are enabling new applications and business opportunities.
 There are a wide range of applications:
- Machinery cost reduction. Replace expensive sensors with models relying on available data Anomaly detection. Detect in real time malfunctioning of devices based on historical data.</description>
+Machinery cost reduction. Replace expensive sensors with models relying on available data Anomaly detection. Detect in real time malfunctioning of devices based on historical data.</description>
     </item>
     
     <item>
@@ -30,7 +26,7 @@ There are a wide range of applications:
       <description>“In computer programming, an application programming interface (API) is a set of subroutine definitions, communication protocols, and tools for building software. In general terms, it is a set of clearly defined methods of communication among various components.
 A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer.” Wikipedia
 Backend development in Python/Java/Kotlin:
- Integration with databases Integration in CI/CD Deployment to a cloud service, such as AWS  print(&amp;#39;it can be done!</description>
+Integration with databases Integration in CI/CD Deployment to a cloud service, such as AWS print(&amp;#39;it can be done!</description>
     </item>
     
     <item>
@@ -40,8 +36,8 @@ Backend development in Python/Java/Kotlin:
       
       <guid>https://vicenteguerrero.tech/projects/vocification/</guid>
       <description>Vocification technologies allow organisations to integrate natural communication channels into their business operations.
- Automated call center. Save costs and reduce waiting times for your customers. Automated help desk. Reduce the response time for the most common issues. Vocified mobile applications.  Get in short time an AWS based system and pay only as you use it. No fixed payments.
-print(&amp;#39;it can be done!</description>
+Automated call center. Save costs and reduce waiting times for your customers. Automated help desk. Reduce the response time for the most common issues. Vocified mobile applications. Get in short time an AWS based system and pay only as you use it. No fixed payments.
+print(&amp;#39;it can be done!&amp;#39;) </description>
     </item>
     
   </channel>

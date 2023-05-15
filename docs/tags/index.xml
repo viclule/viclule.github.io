@@ -5,11 +5,7 @@
     <link>https://vicenteguerrero.tech/tags/</link>
     <description>Recent content in Tags on Vicente Guerrero</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://vicenteguerrero.tech/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://vicenteguerrero.tech/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>algorithms</title>
       <link>https://vicenteguerrero.tech/tags/algorithms/</link>

@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
 
     <meta name="author" content="Vicente Guerrero">
     <meta name="description" content="Extension of the tf.image.resize_bilinear to the N dimensional case Visit the github repository for the full code. GitHub
@@ -26,7 +29,8 @@ The function extends the functionality of tf.image.resize_bilinear for N dimensi
 Strategy The strategy is fairly simple, tensors are interpolated two dimensions at a time using the already existant tf.image.resize_bilinear function.
 Test Building a 3D volume using a black image, an android image and a white image. [1, 245, 206, 3, 4] [1 batch, height, width, depth, 4 channels]" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://idoengineeringstuff.com/posts/multilinear-interpolation-tensorflow/" />
+<meta property="og:url" content="https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/" /><meta property="article:section" content="posts" />
+
 
 
 
@@ -35,17 +39,15 @@ Test Building a 3D volume using a black image, an android image and a white imag
 </title>
 
     
-      <link rel="canonical" href="https://idoengineeringstuff.com/posts/multilinear-interpolation-tensorflow/">
+      <link rel="canonical" href="https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/">
     
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
 
     
       
       
-      <link rel="stylesheet" href="/css/coder.min.9836c03fe5c87d102278a33e86d0591ef36c89b1e17e8e547ebf84c05cee010e.css" integrity="sha256-mDbAP&#43;XIfRAieKM&#43;htBZHvNsibHhfo5Ufr&#43;EwFzuAQ4=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="/css/coder.min.d9fddbffe6f27e69985dc5fe0471cdb0e57fbf4775714bc3d847accb08f4a1f6.css" integrity="sha256-2f3b/&#43;byfmmYXcX&#43;BHHNsOV/v0d1cUvD2Eesywj0ofY=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -54,7 +56,7 @@ Test Building a 3D volume using a black image, an android image and a white imag
       
         
         
-        <link rel="stylesheet" href="/css/coder-dark.min.717236c74e0a5208ef73964a9f44c6b443b689a95b270d8b2a40d0c012460dac.css" integrity="sha256-cXI2x04KUgjvc5ZKn0TGtEO2ialbJw2LKkDQwBJGDaw=" crossorigin="anonymous" media="screen" />
+        <link rel="stylesheet" href="/css/coder-dark.min.002ee2378e14c7a68f1f0a53d9694ed252090987c4e768023fac694a4fc5f793.css" integrity="sha256-AC7iN44Ux6aPHwpT2WlO0lIJCYfE52gCP6xpSk/F95M=" crossorigin="anonymous" media="screen" />
       
     
 
@@ -68,20 +70,22 @@ Test Building a 3D volume using a black image, an android image and a white imag
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 
-    
-      <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
-    
-
-    <meta name="generator" content="Hugo 0.62.0" />
+    <meta name="generator" content="Hugo 0.111.3">
   </head>
 
   
   
     
   
-  <body class="colorscheme-auto"
-        onload=" twemoji.parse(document.body); "
-  >
+  <body class="preload-transitions colorscheme-auto">
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
@@ -89,11 +93,6 @@ Test Building a 3D volume using a black image, an android image and a white imag
       Vicente Guerrero
     </a>
     
-      
-        <span id="dark-mode-toggle" class="float-right">
-          <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
-        </span>
-      
       <input type="checkbox" id="menu-toggle" />
       <label class="menu-button float-right" for="menu-toggle">
         <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
@@ -130,17 +129,12 @@ Test Building a 3D volume using a black image, an android image and a white imag
                 
               
               <li class="navigation-item">
-                <a href="https://idoengineeringstuff.com/de-de/">Deutsch</a>
+                <a href="https://vicenteguerrero.tech/de-de/">Deutsch</a>
               </li>
             
           
             
           
-        
-        
-          <li class="navigation-item separator">
-            <span>|</span>
-          </li>
         
       </ul>
     
@@ -154,103 +148,139 @@ Test Building a 3D volume using a black image, an android image and a white imag
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">Multilinear Interpolation in tensorflow</h1>
+          <h1 class="title">
+            <a class="title-link" href="https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/">
+              Multilinear Interpolation in tensorflow
+            </a>
+          </h1>
         </div>
         <div class="post-meta">
           <div class="date">
-            
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='0001-01-01T00:00:00Z'>
+                Oktober 10, 1010
+              </time>
+            </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
               2-minute read
             </span>
           </div>
           
+          
           <div class="tags">
   <i class="fa fa-tag" aria-hidden="true"></i>
-    <a href="/tags/tensorflow/">tensorflow</a>
+    <span class="tag">
+      <a href="/tags/tensorflow/">tensorflow</a>
+    </span>
       <span class="separator">•</span>
-    <a href="/tags/image-processing/">image processing</a>
+    <span class="tag">
+      <a href="/tags/image-processing/">image processing</a>
+    </span>
       <span class="separator">•</span>
-    <a href="/tags/machine-learning/">machine learning</a></div>
+    <span class="tag">
+      <a href="/tags/machine-learning/">machine learning</a>
+    </span></div>
 
         </div>
       </header>
 
       <div>
         
-        <h3 id="extension-of-the-tfimageresize-bilinear-to-the-n-dimensional-case">Extension of the tf.image.resize_bilinear to the N dimensional case</h3>
+        <h3 id="extension-of-the-tfimageresize_bilinear-to-the-n-dimensional-case">
+  Extension of the tf.image.resize_bilinear to the N dimensional case
+  <a class="heading-link" href="#extension-of-the-tfimageresize_bilinear-to-the-n-dimensional-case">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <p>Visit the github repository for the full code. <a href="https://github.com/viclule/image_resize_n_linear">GitHub</a></p>
 <p>The function extends the functionality of tf.image.resize_bilinear for N dimensional Tensors.</p>
-<h3 id="strategy">Strategy</h3>
+<h3 id="strategy">
+  Strategy
+  <a class="heading-link" href="#strategy">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <p>The strategy is fairly simple, tensors are interpolated two dimensions at a time using the already existant tf.image.resize_bilinear function.</p>
 <p><img src="../../images/posts/multilinear_interpolation_tensorflow_2.png" alt="Strategy"></p>
-<h3 id="test">Test</h3>
+<h3 id="test">
+  Test
+  <a class="heading-link" href="#test">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <p>Building a 3D volume using a black image, an android image and a white image. [1, 245, 206, 3, 4] [1 batch, height, width, depth, 4 channels]</p>
 <p>Resize the 3D volume to [1, 100, 100, 5, 4]</p>
 <p>Expectations: [1, 100, 100, 2, 4] will be half way darker.</p>
 <p>Expectations: [1, 100, 100, 4, 4] will be half way brighter.</p>
 <p>This is the image showing the results for the 3D test:</p>
 <p><img src="../../images/posts/multilinear_interpolation_tensorflow.png" alt="Test for 3D"></p>
-<h3 id="python-code">Python code</h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#fff;font-weight:bold">import</span> tensorflow <span style="color:#fff;font-weight:bold">as</span> tf
-
-
-<span style="color:#fff;font-weight:bold">def</span> _resize_by_axis_trilinear(images, size_0, size_1, ax):
-    <span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">    Resize image bilinearly to [size_0, size_1] except axis ax.</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        :param image: a tensor 4-D with shape </span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">                        [batch, d0, d1, d2, channels]</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        :param size_0: size 0</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        :param size_1: size 1</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        :param ax: axis to exclude from the interpolation</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">    </span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span>
-    resized_list = []
-
-    <span style="color:#007f7f"># unstack the image in 2d cases</span>
-    unstack_list = tf.unstack(images, axis = ax)
-    <span style="color:#fff;font-weight:bold">for</span> i in unstack_list:
-        <span style="color:#007f7f"># resize bilinearly</span>
-        resized_list.append(tf.image.resize_bilinear(i, [size_0, size_1]))
-    stack_img = tf.stack(resized_list, axis=ax)
-
-    <span style="color:#fff;font-weight:bold">return</span> stack_img
-
-
-<span style="color:#fff;font-weight:bold">def</span> resize_trilinear(images, size):
-    <span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">    Resize images to size using trilinear interpolation.</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        :param images: A tensor 5-D with shape </span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">                        [batch, d0, d1, d2, channels]</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        :param size: A 1-D int32 Tensor of 3 elements: new_d0, new_d1,</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">                        new_d2. The new size for the images.</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">    </span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span>
-    <span style="color:#fff;font-weight:bold">assert</span> size.shape[<span style="color:#ff0;font-weight:bold">0</span>] == <span style="color:#ff0;font-weight:bold">3</span>
-    resized = _resize_by_axis_trilinear(images, size[<span style="color:#ff0;font-weight:bold">0</span>], size[<span style="color:#ff0;font-weight:bold">1</span>], <span style="color:#ff0;font-weight:bold">2</span>)
-    resized = _resize_by_axis_trilinear(resized, size[<span style="color:#ff0;font-weight:bold">0</span>], size[<span style="color:#ff0;font-weight:bold">2</span>], <span style="color:#ff0;font-weight:bold">1</span>)
-    <span style="color:#fff;font-weight:bold">return</span> resized
-
-
-<span style="color:#007f7f"># jumping some lines...</span>
-
-
-<span style="color:#fff;font-weight:bold">def</span> resize_multilinear_tf(images, size):
-    <span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">    Resize images to size using multilinear interpolation.</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        :param images: A tensor with shape </span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">                        [batch, d0, ..., dn, channels]</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        :param size: A 1-D int32 Tensor. The new size for the images.</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">    </span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span>
-    <span style="color:#fff;font-weight:bold">if</span> size.shape[<span style="color:#ff0;font-weight:bold">0</span>] == <span style="color:#ff0;font-weight:bold">2</span>:
-        resized = tf.image.resize_bilinear(images, size)
-    <span style="color:#fff;font-weight:bold">elif</span> size.shape[<span style="color:#ff0;font-weight:bold">0</span>] == <span style="color:#ff0;font-weight:bold">3</span>:
-        resized = resize_trilinear(images, size)
-    <span style="color:#fff;font-weight:bold">elif</span> size.shape[<span style="color:#ff0;font-weight:bold">0</span>] == <span style="color:#ff0;font-weight:bold">4</span>:
-        resized = resize_tetralinear(images, size)
-    <span style="color:#fff;font-weight:bold">else</span>:
-        <span style="color:#fff;font-weight:bold">raise</span> NotImplementedError(<span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">&#39;</span><span style="color:#0ff;font-weight:bold">resize_multilinear_tf: dimensions </span><span style="color:#0ff;font-weight:bold">\
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">                                    higuer than 4 are not supported.</span><span style="color:#0ff;font-weight:bold">&#39;</span>)
-    <span style="color:#fff;font-weight:bold">return</span> resized
-</code></pre></div>
+<h3 id="python-code">
+  Python code
+  <a class="heading-link" href="#python-code">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">import</span> tensorflow <span style="color:#fff;font-weight:bold">as</span> tf
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">def</span> _resize_by_axis_trilinear(images, size_0, size_1, ax):
+</span></span><span style="display:flex;"><span>    <span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">    Resize image bilinearly to [size_0, size_1] except axis ax.
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        :param image: a tensor 4-D with shape 
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">                        [batch, d0, d1, d2, channels]
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        :param size_0: size 0
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        :param size_1: size 1
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        :param ax: axis to exclude from the interpolation
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    resized_list = []
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007f7f"># unstack the image in 2d cases</span>
+</span></span><span style="display:flex;"><span>    unstack_list = tf.unstack(images, axis = ax)
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> i in unstack_list:
+</span></span><span style="display:flex;"><span>        <span style="color:#007f7f"># resize bilinearly</span>
+</span></span><span style="display:flex;"><span>        resized_list.append(tf.image.resize_bilinear(i, [size_0, size_1]))
+</span></span><span style="display:flex;"><span>    stack_img = tf.stack(resized_list, axis=ax)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">return</span> stack_img
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">def</span> resize_trilinear(images, size):
+</span></span><span style="display:flex;"><span>    <span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">    Resize images to size using trilinear interpolation.
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        :param images: A tensor 5-D with shape 
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">                        [batch, d0, d1, d2, channels]
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        :param size: A 1-D int32 Tensor of 3 elements: new_d0, new_d1,
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">                        new_d2. The new size for the images.
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">assert</span> size.shape[<span style="color:#ff0;font-weight:bold">0</span>] == <span style="color:#ff0;font-weight:bold">3</span>
+</span></span><span style="display:flex;"><span>    resized = _resize_by_axis_trilinear(images, size[<span style="color:#ff0;font-weight:bold">0</span>], size[<span style="color:#ff0;font-weight:bold">1</span>], <span style="color:#ff0;font-weight:bold">2</span>)
+</span></span><span style="display:flex;"><span>    resized = _resize_by_axis_trilinear(resized, size[<span style="color:#ff0;font-weight:bold">0</span>], size[<span style="color:#ff0;font-weight:bold">2</span>], <span style="color:#ff0;font-weight:bold">1</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">return</span> resized
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#007f7f"># jumping some lines...</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">def</span> resize_multilinear_tf(images, size):
+</span></span><span style="display:flex;"><span>    <span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">    Resize images to size using multilinear interpolation.
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        :param images: A tensor with shape 
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">                        [batch, d0, ..., dn, channels]
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        :param size: A 1-D int32 Tensor. The new size for the images.
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">if</span> size.shape[<span style="color:#ff0;font-weight:bold">0</span>] == <span style="color:#ff0;font-weight:bold">2</span>:
+</span></span><span style="display:flex;"><span>        resized = tf.image.resize_bilinear(images, size)
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">elif</span> size.shape[<span style="color:#ff0;font-weight:bold">0</span>] == <span style="color:#ff0;font-weight:bold">3</span>:
+</span></span><span style="display:flex;"><span>        resized = resize_trilinear(images, size)
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">elif</span> size.shape[<span style="color:#ff0;font-weight:bold">0</span>] == <span style="color:#ff0;font-weight:bold">4</span>:
+</span></span><span style="display:flex;"><span>        resized = resize_tetralinear(images, size)
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">raise</span> NotImplementedError(<span style="color:#0ff;font-weight:bold">&#39;resize_multilinear_tf: dimensions </span><span style="color:#0ff;font-weight:bold">\
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">                                    higuer than 4 are not supported.&#39;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">return</span> resized
+</span></span></code></pre></div>
       </div>
 
 
@@ -269,33 +299,31 @@ Test Building a 3D volume using a black image, an android image and a white imag
 
       </div>
 
-      
-  <footer class="footer">
-    <section class="container">
-      
-        <p>Let's do stuff together.</p>
-      
-      
-        ©
-        
-          2019 -
-        
-        2021
-         Vicente Guerrero 
-      
-      
-         · 
-        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
-      
-      
-    </section>
-  </footer>
+      <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2023
+     Vicente Guerrero 
+    ·
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
 
     </main>
 
     
       
-      <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      <script src="/js/coder.min.9cf2dbf9b6989ef8eae941ffb4231c26d1dc026bca38f1d19fdba50177d8a9ac.js" integrity="sha256-nPLb&#43;baYnvjq6UH/tCMcJtHcAmvKOPHRn9ulAXfYqaw="></script>
+    
+
+    
+
+    
+
     
 
     

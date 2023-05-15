@@ -5,10 +5,6 @@
     <link>https://vicenteguerrero.tech/series/</link>
     <description>Recent content in Series on Vicente Guerrero</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://vicenteguerrero.tech/series/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://vicenteguerrero.tech/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

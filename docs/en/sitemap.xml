@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://vicenteguerrero.tech/about/</loc>
     <xhtml:link
@@ -14,21 +13,13 @@
                 hreflang="en"
                 href="https://vicenteguerrero.tech/about/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/tags/algorithms/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/projects/analytics-algorithms/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/projects/backend-development/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/posts/</loc>
     <xhtml:link
                 rel="alternate"
@@ -40,9 +31,7 @@
                 hreflang="en"
                 href="https://vicenteguerrero.tech/posts/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -54,9 +43,7 @@
                 hreflang="en"
                 href="https://vicenteguerrero.tech/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/contact/</loc>
     <xhtml:link
                 rel="alternate"
@@ -68,41 +55,23 @@
                 hreflang="en"
                 href="https://vicenteguerrero.tech/contact/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/posts/pycuda-corner-detector/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/tags/image-processing/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/tags/machine-learning/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/tags/optimization/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/posts/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/projects/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/tags/pycuda/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -114,9 +83,7 @@
                 hreflang="en"
                 href="https://vicenteguerrero.tech/series/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/projects/</loc>
     <xhtml:link
                 rel="alternate"
@@ -128,13 +95,9 @@
                 hreflang="en"
                 href="https://vicenteguerrero.tech/projects/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/posts/swarm-particle-interpolation/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -146,13 +109,9 @@
                 hreflang="en"
                 href="https://vicenteguerrero.tech/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/tags/tensorflow/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/</loc>
     <xhtml:link
                 rel="alternate"
@@ -164,10 +123,7 @@
                 hreflang="en"
                 href="https://vicenteguerrero.tech/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/projects/vocification/</loc>
   </url>
-  
 </urlset>

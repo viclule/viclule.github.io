@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://vicenteguerrero.tech/de-de/about/</loc>
     <xhtml:link
@@ -14,9 +13,7 @@
                 hreflang="de-de"
                 href="https://vicenteguerrero.tech/de-de/about/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/de-de/posts/</loc>
     <xhtml:link
                 rel="alternate"
@@ -28,9 +25,7 @@
                 hreflang="de-de"
                 href="https://vicenteguerrero.tech/de-de/posts/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/de-de/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -42,9 +37,7 @@
                 hreflang="de-de"
                 href="https://vicenteguerrero.tech/de-de/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/de-de/projects/</loc>
     <xhtml:link
                 rel="alternate"
@@ -56,9 +49,7 @@
                 hreflang="de-de"
                 href="https://vicenteguerrero.tech/de-de/projects/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/de-de/contact/</loc>
     <xhtml:link
                 rel="alternate"
@@ -70,9 +61,7 @@
                 hreflang="de-de"
                 href="https://vicenteguerrero.tech/de-de/contact/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/de-de/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -84,9 +73,7 @@
                 hreflang="de-de"
                 href="https://vicenteguerrero.tech/de-de/series/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/de-de/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -98,9 +85,7 @@
                 hreflang="de-de"
                 href="https://vicenteguerrero.tech/de-de/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vicenteguerrero.tech/de-de/</loc>
     <xhtml:link
                 rel="alternate"
@@ -113,5 +98,4 @@
                 href="https://vicenteguerrero.tech/de-de/"
                 />
   </url>
-  
 </urlset>

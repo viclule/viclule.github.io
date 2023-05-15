@@ -5,11 +5,7 @@
     <link>https://vicenteguerrero.tech/tags/machine-learning/</link>
     <description>Recent content in machine learning on Vicente Guerrero</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://vicenteguerrero.tech/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://vicenteguerrero.tech/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multilinear Interpolation in tensorflow</title>
       <link>https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/</link>

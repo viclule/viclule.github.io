@@ -5,25 +5,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
 
     <meta name="author" content="Vicente Guerrero">
-    <meta name="description" content="Adapted to the N dimensional case  Visit the github repository for the full code. GitHub
+    <meta name="description" content="Adapted to the N dimensional case Visit the github repository for the full code. GitHub
 It is a professional implementation based on the article from Iran Macedo.
-Theory “In computational science, particle swarm optimization (PSO) [1] is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. It solves a problem by having a population of candidate solutions, here dubbed particles, and moving these particles around in the search-space according to simple mathematical formulae over the particle&#39;s position and velocity.">
+Theory “In computational science, particle swarm optimization (PSO) [1] is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. It solves a problem by having a population of candidate solutions, here dubbed particles, and moving these particles around in the search-space according to simple mathematical formulae over the particle&rsquo;s position and velocity.">
     <meta name="keywords" content="blog,developer,personal,software">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Swarm Particle Interpolation"/>
-<meta name="twitter:description" content="Adapted to the N dimensional case  Visit the github repository for the full code. GitHub
+<meta name="twitter:description" content="Adapted to the N dimensional case Visit the github repository for the full code. GitHub
 It is a professional implementation based on the article from Iran Macedo.
-Theory “In computational science, particle swarm optimization (PSO) [1] is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. It solves a problem by having a population of candidate solutions, here dubbed particles, and moving these particles around in the search-space according to simple mathematical formulae over the particle&#39;s position and velocity."/>
+Theory “In computational science, particle swarm optimization (PSO) [1] is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. It solves a problem by having a population of candidate solutions, here dubbed particles, and moving these particles around in the search-space according to simple mathematical formulae over the particle&rsquo;s position and velocity."/>
 
     <meta property="og:title" content="Swarm Particle Interpolation" />
-<meta property="og:description" content="Adapted to the N dimensional case  Visit the github repository for the full code. GitHub
+<meta property="og:description" content="Adapted to the N dimensional case Visit the github repository for the full code. GitHub
 It is a professional implementation based on the article from Iran Macedo.
-Theory “In computational science, particle swarm optimization (PSO) [1] is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. It solves a problem by having a population of candidate solutions, here dubbed particles, and moving these particles around in the search-space according to simple mathematical formulae over the particle&#39;s position and velocity." />
+Theory “In computational science, particle swarm optimization (PSO) [1] is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. It solves a problem by having a population of candidate solutions, here dubbed particles, and moving these particles around in the search-space according to simple mathematical formulae over the particle&rsquo;s position and velocity." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://idoengineeringstuff.com/posts/swarm-particle-interpolation/" />
+<meta property="og:url" content="https://vicenteguerrero.tech/posts/swarm-particle-interpolation/" /><meta property="article:section" content="posts" />
+
 
 
 
@@ -32,17 +36,15 @@ Theory “In computational science, particle swarm optimization (PSO) [1] is a c
 </title>
 
     
-      <link rel="canonical" href="https://idoengineeringstuff.com/posts/swarm-particle-interpolation/">
+      <link rel="canonical" href="https://vicenteguerrero.tech/posts/swarm-particle-interpolation/">
     
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
 
     
       
       
-      <link rel="stylesheet" href="/css/coder.min.9836c03fe5c87d102278a33e86d0591ef36c89b1e17e8e547ebf84c05cee010e.css" integrity="sha256-mDbAP&#43;XIfRAieKM&#43;htBZHvNsibHhfo5Ufr&#43;EwFzuAQ4=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="/css/coder.min.d9fddbffe6f27e69985dc5fe0471cdb0e57fbf4775714bc3d847accb08f4a1f6.css" integrity="sha256-2f3b/&#43;byfmmYXcX&#43;BHHNsOV/v0d1cUvD2Eesywj0ofY=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -51,7 +53,7 @@ Theory “In computational science, particle swarm optimization (PSO) [1] is a c
       
         
         
-        <link rel="stylesheet" href="/css/coder-dark.min.717236c74e0a5208ef73964a9f44c6b443b689a95b270d8b2a40d0c012460dac.css" integrity="sha256-cXI2x04KUgjvc5ZKn0TGtEO2ialbJw2LKkDQwBJGDaw=" crossorigin="anonymous" media="screen" />
+        <link rel="stylesheet" href="/css/coder-dark.min.002ee2378e14c7a68f1f0a53d9694ed252090987c4e768023fac694a4fc5f793.css" integrity="sha256-AC7iN44Ux6aPHwpT2WlO0lIJCYfE52gCP6xpSk/F95M=" crossorigin="anonymous" media="screen" />
       
     
 
@@ -65,20 +67,22 @@ Theory “In computational science, particle swarm optimization (PSO) [1] is a c
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 
-    
-      <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
-    
-
-    <meta name="generator" content="Hugo 0.62.0" />
+    <meta name="generator" content="Hugo 0.111.3">
   </head>
 
   
   
     
   
-  <body class="colorscheme-auto"
-        onload=" twemoji.parse(document.body); "
-  >
+  <body class="preload-transitions colorscheme-auto">
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
@@ -86,11 +90,6 @@ Theory “In computational science, particle swarm optimization (PSO) [1] is a c
       Vicente Guerrero
     </a>
     
-      
-        <span id="dark-mode-toggle" class="float-right">
-          <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
-        </span>
-      
       <input type="checkbox" id="menu-toggle" />
       <label class="menu-button float-right" for="menu-toggle">
         <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
@@ -127,17 +126,12 @@ Theory “In computational science, particle swarm optimization (PSO) [1] is a c
                 
               
               <li class="navigation-item">
-                <a href="https://idoengineeringstuff.com/de-de/">Deutsch</a>
+                <a href="https://vicenteguerrero.tech/de-de/">Deutsch</a>
               </li>
             
           
             
           
-        
-        
-          <li class="navigation-item separator">
-            <span>|</span>
-          </li>
         
       </ul>
     
@@ -151,80 +145,109 @@ Theory “In computational science, particle swarm optimization (PSO) [1] is a c
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">Swarm Particle Interpolation</h1>
+          <h1 class="title">
+            <a class="title-link" href="https://vicenteguerrero.tech/posts/swarm-particle-interpolation/">
+              Swarm Particle Interpolation
+            </a>
+          </h1>
         </div>
         <div class="post-meta">
           <div class="date">
-            
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='0001-01-01T00:00:00Z'>
+                Oktober 10, 1010
+              </time>
+            </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
               2-minute read
             </span>
           </div>
           
+          
           <div class="tags">
   <i class="fa fa-tag" aria-hidden="true"></i>
-    <a href="/tags/optimization/">optimization</a>
+    <span class="tag">
+      <a href="/tags/optimization/">optimization</a>
+    </span>
       <span class="separator">•</span>
-    <a href="/tags/algorithms/">algorithms</a></div>
+    <span class="tag">
+      <a href="/tags/algorithms/">algorithms</a>
+    </span></div>
 
         </div>
       </header>
 
       <div>
         
-        <h3 id="adapted-to-the-n-dimensional-case">Adapted to the N dimensional case</h3>
+        <h3 id="adapted-to-the-n-dimensional-case">
+  Adapted to the N dimensional case
+  <a class="heading-link" href="#adapted-to-the-n-dimensional-case">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <hr>
 <p>Visit the github repository for the full code. <a href="https://github.com/viclule/particle_swarm_optimization_py">GitHub</a></p>
 <p>It is a professional implementation based on the <a href="https://medium.com/analytics-vidhya/implementing-particle-swarm-optimization-pso-algorithm-in-python-9efc2eb179a6">article from Iran Macedo</a>.</p>
-<h3 id="theory">Theory</h3>
+<h3 id="theory">
+  Theory
+  <a class="heading-link" href="#theory">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
 <p><img src="../../images/posts/swarm_particle_optimization%20copy.png" alt="Theory"></p>
-<p>“In computational science, particle swarm optimization (PSO) [1] is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. It solves a problem by having a population of candidate solutions, here dubbed particles, and moving these particles around in the search-space according to simple mathematical formulae over the particle's position and velocity. Each particle's movement is influenced by its local best known position, but is also guided toward the best known positions in the search-space, which are updated as better positions are found by other particles. This is expected to move the swarm toward the best solutions.” Wikipedia</p>
+<p>“In computational science, particle swarm optimization (PSO) [1] is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. It solves a problem by having a population of candidate solutions, here dubbed particles, and moving these particles around in the search-space according to simple mathematical formulae over the particle&rsquo;s position and velocity. Each particle&rsquo;s movement is influenced by its local best known position, but is also guided toward the best known positions in the search-space, which are updated as better positions are found by other particles. This is expected to move the swarm toward the best solutions.” Wikipedia</p>
 <hr>
-<h3 id="python-code">Python code</h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#fff;font-weight:bold">import</span> random
-<span style="color:#fff;font-weight:bold">import</span> numpy <span style="color:#fff;font-weight:bold">as</span> np 
-
-
-<span style="color:#fff;font-weight:bold">class</span> Particle():
-    <span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">    A particle of the swarm</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">    </span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span>
-    <span style="color:#fff;font-weight:bold">def</span> __init__(self, dimensions):
-        <span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        Init</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">            :param self: </span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">            :param dimensions: number of dimensions for the particle</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        </span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span>
-        self._initialize_position(dimensions)
-        self.pbest_position = self.position
-        self.pbest_value = <span style="color:#fff;font-weight:bold">float</span>(<span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">&#39;</span><span style="color:#0ff;font-weight:bold">inf</span><span style="color:#0ff;font-weight:bold">&#39;</span>)
-        self.velocity = np.zeros(dimensions)
-
-    <span style="color:#fff;font-weight:bold">def</span> _initialize_position(self, dimensions):
-        <span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        Initialize to a random position</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">            :param self: </span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">            :param dimensions: number of dimensions to optimize</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        </span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span>
-        self.position = np.zeros(dimensions)
-        <span style="color:#fff;font-weight:bold">for</span> d in <span style="color:#fff;font-weight:bold">range</span>(dimensions):
-            self.position[d] = (-<span style="color:#ff0;font-weight:bold">1</span>)**(<span style="color:#fff;font-weight:bold">bool</span>(random.getrandbits(<span style="color:#ff0;font-weight:bold">1</span>))) * \
-                                random.random()*<span style="color:#ff0;font-weight:bold">50</span>
-
-    <span style="color:#fff;font-weight:bold">def</span> __str__(self):
-        <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">&#34;</span><span style="color:#0ff;font-weight:bold">I am at </span><span style="color:#0ff;font-weight:bold">&#34;</span>, self.position, <span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">&#34;</span><span style="color:#0ff;font-weight:bold"> meu pbest is </span><span style="color:#0ff;font-weight:bold">&#34;</span>, self.pbest_position)
-    
-    <span style="color:#fff;font-weight:bold">def</span> move(self):
-        <span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        Update the particle position</span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">            :param self: </span><span style="color:#0ff;font-weight:bold">
-</span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">        </span><span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;</span>
-        self.position = self.position + self.velocity
-
-
-<span style="color:#007f7f"># jumping some lines...</span>
-</code></pre></div>
+<h3 id="python-code">
+  Python code
+  <a class="heading-link" href="#python-code">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">import</span> random
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">import</span> numpy <span style="color:#fff;font-weight:bold">as</span> np 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">class</span> Particle():
+</span></span><span style="display:flex;"><span>    <span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">    A particle of the swarm
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">def</span> __init__(self, dimensions):
+</span></span><span style="display:flex;"><span>        <span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        Init
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">            :param self: 
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">            :param dimensions: number of dimensions for the particle
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        self._initialize_position(dimensions)
+</span></span><span style="display:flex;"><span>        self.pbest_position = self.position
+</span></span><span style="display:flex;"><span>        self.pbest_value = <span style="color:#fff;font-weight:bold">float</span>(<span style="color:#0ff;font-weight:bold">&#39;inf&#39;</span>)
+</span></span><span style="display:flex;"><span>        self.velocity = np.zeros(dimensions)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">def</span> _initialize_position(self, dimensions):
+</span></span><span style="display:flex;"><span>        <span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        Initialize to a random position
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">            :param self: 
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">            :param dimensions: number of dimensions to optimize
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        self.position = np.zeros(dimensions)
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">for</span> d in <span style="color:#fff;font-weight:bold">range</span>(dimensions):
+</span></span><span style="display:flex;"><span>            self.position[d] = (-<span style="color:#ff0;font-weight:bold">1</span>)**(<span style="color:#fff;font-weight:bold">bool</span>(random.getrandbits(<span style="color:#ff0;font-weight:bold">1</span>))) * \
+</span></span><span style="display:flex;"><span>                                random.random()*<span style="color:#ff0;font-weight:bold">50</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">def</span> __str__(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">&#34;I am at &#34;</span>, self.position, <span style="color:#0ff;font-weight:bold">&#34; meu pbest is &#34;</span>, self.pbest_position)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">def</span> move(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        Update the particle position
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">            :param self: 
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        self.position = self.position + self.velocity
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#007f7f"># jumping some lines...</span>
+</span></span></code></pre></div>
       </div>
 
 
@@ -243,33 +266,31 @@ Theory “In computational science, particle swarm optimization (PSO) [1] is a c
 
       </div>
 
-      
-  <footer class="footer">
-    <section class="container">
-      
-        <p>Let's do stuff together.</p>
-      
-      
-        ©
-        
-          2019 -
-        
-        2021
-         Vicente Guerrero 
-      
-      
-         · 
-        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
-      
-      
-    </section>
-  </footer>
+      <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2023
+     Vicente Guerrero 
+    ·
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
 
     </main>
 
     
       
-      <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      <script src="/js/coder.min.9cf2dbf9b6989ef8eae941ffb4231c26d1dc026bca38f1d19fdba50177d8a9ac.js" integrity="sha256-nPLb&#43;baYnvjq6UH/tCMcJtHcAmvKOPHRn9ulAXfYqaw="></script>
+    
+
+    
+
+    
+
     
 
     
