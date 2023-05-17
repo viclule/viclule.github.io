@@ -1,6 +1,6 @@
 
 +++
-title = "Backend Development"
+title = "Backend Development and Microservices"
 slug = "backend-development"
 +++
 
@@ -9,7 +9,7 @@ slug = "backend-development"
 
 A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer.” Wikipedia
 
-Backend development in Python/Java/Kotlin:
+Backend development in Python/Rust/Java/Kotlin:
 
 - Integration with databases
 - Integration in CI/CD 

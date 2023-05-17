@@ -29,14 +29,14 @@ Machinery cost reduction. Replace expensive sensors with models relying on avail
     </item>
     
     <item>
-      <title>Backend Development</title>
+      <title>Backend Development and Microservices</title>
       <link>https://vicenteguerrero.tech/projects/backend-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vicenteguerrero.tech/projects/backend-development/</guid>
       <description>“In computer programming, an application programming interface (API) is a set of subroutine definitions, communication protocols, and tools for building software. In general terms, it is a set of clearly defined methods of communication among various components.
 A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer.” Wikipedia
-Backend development in Python/Java/Kotlin:
+Backend development in Python/Rust/Java/Kotlin:
 Integration with databases Integration in CI/CD Deployment to a cloud service, such as AWS print(&amp;#39;it can be done!</description>
     </item>
     
@@ -104,7 +104,7 @@ I can help you to identify and migrate to Rust the sections of your code that wo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vicenteguerrero.tech/projects/</guid>
-      <description>Backend Development
+      <description>Backend Development and Microservices
 Analytics and Algorithms
 Rust&amp;amp;Python</description>
     </item>
