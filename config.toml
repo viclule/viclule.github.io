@@ -20,7 +20,7 @@ publishDir = "docs"
 [params]
     author = "Vicente Guerrero"
     description = "Vicente Guerrero's personal website"
-    keywords = "blog,developer,personal,software"
+    keywords = "backend,developer,personal,software"
     info = "Freelance Software Developer"
     info2 = "Python&Rust = "
     info3 = "Do you need help building faster Python packages?"
