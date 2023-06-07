@@ -4,7 +4,7 @@ title = "About"
 slug = "about"
 +++
 
-Hi there! I am a science enthusiast focused on python and rust software development, and machine learning.
+Hi there! I am a science enthusiast focused on python, kotlin and rust software development, and machine learning.
 
 I hold a BS in [mechanical engineering](http://itcelaya.edu.mx/), from the technical university of Celaya, Mexico, and a MS degree in mechatronics in 2010, from the technical university of Aachen ([FH Aachen](https://www.fh-aachen.de/)). Thanks to this I can understand engineering and computers.
 
