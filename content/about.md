@@ -4,7 +4,7 @@ title = "About"
 slug = "about"
 +++
 
-Hi there! I am a science enthusiast with extensive experience in algorithm and software development. Over ten years of experience, since 2016 focusing on python, rust and java related languages for microservices, backend and machine learning development, and deployment in the cloud.
+Hello there! I am a science enthusiast with extensive experience in algorithm and software development. Over ten years of experience, since 2016 focusing on python, rust and java related languages for microservices, backend and machine learning development, and deployment in the cloud.
 
 I hold a BS in [mechanical engineering](http://itcelaya.edu.mx/), from the technical university of Celaya, Mexico, and a MS degree in mechatronics in 2010, from the technical university of Aachen ([FH Aachen](https://www.fh-aachen.de/)). Thanks to this I can understand engineering and computers.
 
