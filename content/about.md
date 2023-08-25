@@ -16,4 +16,3 @@ Happily, I was accepted in [Mensa](https://www.mensa.org/) in 2018.
 
 ![Mensa](../images/about/mensa_member_small.png)
 
-[Download my CV](../documents/guerrero_cv_de.pdf)
