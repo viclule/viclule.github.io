@@ -10,6 +10,9 @@ I hold a BS in [mechanical engineering](http://itcelaya.edu.mx/), from the techn
 
 For the first part of my carrer I focused in the developmet of algorithms for the alignment of optical components in optronic devices. First developing innovative technologies in [IPT](https://www.ipt.fraunhofer.de/en.html) Fraunhofer Institute and later bringing them to market with our industry partners.
 
+For the last seven years I have been working in projects for companies like Deutsche Telekom, Otto Group, Telekom Aussendienst and 
+Atlas Copco.
+
 Do you need help writing complex performant scientific code? Maybe I can be of help. 
 
 Happily, I was accepted in [Mensa](https://www.mensa.org/) in 2018.
