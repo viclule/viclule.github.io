@@ -17,5 +17,7 @@ Do you need help writing complex performant scientific code? Maybe I can be of h
 
 Happily, I was accepted in [Mensa](https://www.mensa.org/) in 2018.
 
+[My CV in German.](../documents/guerrero_cv_de.pdf)
+
 ![Mensa](../images/about/mensa_member_small.png)
 
