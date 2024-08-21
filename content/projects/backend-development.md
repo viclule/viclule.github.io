@@ -12,7 +12,8 @@ A good API makes it easier to develop a computer program by providing all the bu
 Backend development in Python/Rust/Java/Kotlin:
 
 - Integration with databases
-- Integration in CI/CD 
+- Integration in CI/CD
+- Deployment to Kubernetes
 - Deployment to a cloud service, such as AWS
 
 ```python

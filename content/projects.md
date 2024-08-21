@@ -3,6 +3,5 @@ title = "Services"
 slug = "projects"
 +++
 
-[Backend Development  and Microservices](backend-development)\
-[Analytics and Algorithms](analytics-algorithms)\
+[Backend Development and Microservices](backend-development)\
 [Rust&Python](rust)
