@@ -131,15 +131,15 @@ publishDir = "docs"
             weight = 1
             url = "about/"
 
-            [[languages.en.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
+#            [[languages.en.menu.main]]
+#            name = "Blog"
+#            weight = 2
+#            url = "posts/"
 
-            [[languages.en.menu.main]]
-            name = "Services"
-            weight = 3
-            url = "projects/"
+#            [[languages.en.menu.main]]
+#            name = "Services"
+#            weight = 3
+#            url = "projects/"
 
             [[languages.en.menu.main]]
             name = "Contact me"
@@ -170,10 +170,10 @@ publishDir = "docs"
 #            weight = 2
 #            url = "posts/"
 
-            [[languages.de-de.menu.main]]
-            name = "Dienste"
-            weight = 3
-            url = "projects/"
+#            [[languages.de-de.menu.main]]
+#            name = "Dienste"
+#            weight = 3
+#            url = "projects/"
 
             [[languages.de-de.menu.main]]
             name = "Kontakt"

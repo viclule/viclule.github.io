@@ -16,7 +16,6 @@ Do you need help writing complex data-based applications? Maybe I can be of help
 
 Happily, I was accepted in [Mensa](https://www.mensa.org/) in 2018.
 
-[My CV in German.](../documents/guerrero_cv_de.pdf)
 
 ![Mensa](../images/about/mensa_member_small.png)
 
