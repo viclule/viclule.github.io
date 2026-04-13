@@ -22,13 +22,13 @@ publishDir = "docs"
     description = "Vicente Guerrero's personal website"
     keywords = "backend,developer,personal,software"
     info = "Freelance Software Developer"
-    info2 = "Data-Driven Products in the Cloud"
-    info3 = "Do you need help building cloud applications?"
+    info2 = "Data-Driven Agentic AI"
+    info3 = "Do you need help getting started?"
     avatarurl = "images/me4.jpg"
     #gravatar = "john.doe@example.com"
     footercontent = "Let's do stuff together."
 
-    dateformat = "Oktober 10, 2020"
+    dateformat = "April 10, 2026"
 
     hideFooter = false
     hideCredits = false
@@ -154,6 +154,8 @@ publishDir = "docs"
         [languages.de-de.params]
             author = "Vicente Guerrero"
             info = "Software Entwickler"
+            info2 = "Data-Driven Agentic AI"
+            info3 = "Brauchst du Hilfe beim Einstieg?"
             description = "Personal Website von Vicente Guerrero"
             keywords = "blog,entwickler,software"
             footercontent = "Lass uns zusammen arbeiten."

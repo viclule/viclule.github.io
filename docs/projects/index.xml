@@ -4,29 +4,22 @@
     <title>Projects on Vicente Guerrero</title>
     <link>https://vicenteguerrero.tech/projects/</link>
     <description>Recent content in Projects on Vicente Guerrero</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://vicenteguerrero.tech/projects/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://vicenteguerrero.tech/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Backend Development and Microservices</title>
       <link>https://vicenteguerrero.tech/projects/backend-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://vicenteguerrero.tech/projects/backend-development/</guid>
-      <description>“In computer programming, an application programming interface (API) is a set of subroutine definitions, communication protocols, and tools for building software. In general terms, it is a set of clearly defined methods of communication among various components.
-A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer.” Wikipedia
-Backend development in Python/Rust/Java/Kotlin:
-Integration with databases Integration in CI/CD Deployment to Kubernetes Deployment to a cloud service, such as AWS print(&amp;#39;it can be done!</description>
+      <description>&lt;p&gt;“In computer programming, an application programming interface (API) is a set of subroutine definitions, communication protocols, and tools for building software. In general terms, it is a set of clearly defined methods of communication among various components.&lt;/p&gt;&#xA;&lt;p&gt;A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer.” Wikipedia&lt;/p&gt;&#xA;&lt;p&gt;Backend development in Python/Rust/Java/Kotlin:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Integration with databases&lt;/li&gt;&#xA;&lt;li&gt;Integration in CI/CD&lt;/li&gt;&#xA;&lt;li&gt;Deployment to Kubernetes&lt;/li&gt;&#xA;&lt;li&gt;Deployment to a cloud service, such as AWS&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;it can be done!&amp;#39;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>Rust&amp;Python</title>
       <link>https://vicenteguerrero.tech/projects/rust/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://vicenteguerrero.tech/projects/rust/</guid>
-      <description>Python is great! Yes, but sometimes the language just can not do things fast enough. Luckily, the Python Community is very dynamic and open to ideas to solve this. One of this, is to use Rust in combination with Python to accelerate your code.
-I can help you to identify and migrate to Rust the sections of your code that would benefit from it, keeping a Python API to keep the life of your developers simple.</description>
+      <description>&lt;p&gt;Python is great! Yes, but sometimes the language just can not do things fast enough. Luckily, the Python Community is very dynamic and open to ideas to solve this. One of this, is to use Rust in combination with Python to accelerate your code.&lt;/p&gt;&#xA;&lt;p&gt;I can help you to identify and migrate to Rust the sections of your code that would benefit from it, keeping a Python API to keep the life of your developers simple.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

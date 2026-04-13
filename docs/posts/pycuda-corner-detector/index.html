@@ -10,28 +10,45 @@
     
 
     <meta name="author" content="Vicente Guerrero">
-    <meta name="description" content="A first intruduction to GPU programming Visit the github repository for the full code. GitHub
+    <meta name="description" content="
+  A first intruduction to GPU programming
+  
+    
+  
+
+Visit the github repository for the full code. GitHub
+The function devides the image in four different parts to process them on different streams.
+These are the execution times for the different implementations:
+
+Python Code -&gt; ≈2.22 seconds
+PyCUDA – single stream -&gt; ≈0.0018 seconds
+PyCUDA – four streams (with concurrency) -&gt; ≈0.0015 seconds
+
+This is the image used to test the code:">
+    <meta name="keywords" content="backend,developer,personal,software">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Harris corner detector on PyCUDA">
+  <meta name="twitter:description" content="A first intruduction to GPU programming Visit the github repository for the full code. GitHub
 The function devides the image in four different parts to process them on different streams.
 These are the execution times for the different implementations:
 Python Code -&gt; ≈2.22 seconds PyCUDA – single stream -&gt; ≈0.0018 seconds PyCUDA – four streams (with concurrency) -&gt; ≈0.0015 seconds This is the image used to test the code:">
-    <meta name="keywords" content="backend,developer,personal,software">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Harris corner detector on PyCUDA"/>
-<meta name="twitter:description" content="A first intruduction to GPU programming Visit the github repository for the full code. GitHub
+    <meta property="og:url" content="https://vicenteguerrero.tech/posts/pycuda-corner-detector/">
+  <meta property="og:site_name" content="Vicente Guerrero">
+  <meta property="og:title" content="Harris corner detector on PyCUDA">
+  <meta property="og:description" content="A first intruduction to GPU programming Visit the github repository for the full code. GitHub
 The function devides the image in four different parts to process them on different streams.
 These are the execution times for the different implementations:
-Python Code -&gt; ≈2.22 seconds PyCUDA – single stream -&gt; ≈0.0018 seconds PyCUDA – four streams (with concurrency) -&gt; ≈0.0015 seconds This is the image used to test the code:"/>
-
-    <meta property="og:title" content="Harris corner detector on PyCUDA" />
-<meta property="og:description" content="A first intruduction to GPU programming Visit the github repository for the full code. GitHub
-The function devides the image in four different parts to process them on different streams.
-These are the execution times for the different implementations:
-Python Code -&gt; ≈2.22 seconds PyCUDA – single stream -&gt; ≈0.0018 seconds PyCUDA – four streams (with concurrency) -&gt; ≈0.0015 seconds This is the image used to test the code:" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vicenteguerrero.tech/posts/pycuda-corner-detector/" /><meta property="article:section" content="posts" />
-
-
+Python Code -&gt; ≈2.22 seconds PyCUDA – single stream -&gt; ≈0.0018 seconds PyCUDA – four streams (with concurrency) -&gt; ≈0.0015 seconds This is the image used to test the code:">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-10-10T00:00:00+00:00">
+    <meta property="article:modified_time" content="2020-10-10T00:00:00+00:00">
+    <meta property="article:tag" content="Pycuda">
+    <meta property="article:tag" content="Image Processing">
 
 
     <title>
@@ -47,7 +64,7 @@ Python Code -&gt; ≈2.22 seconds PyCUDA – single stream -&gt; ≈0.0018 secon
     
       
       
-      <link rel="stylesheet" href="/css/coder.min.d9fddbffe6f27e69985dc5fe0471cdb0e57fbf4775714bc3d847accb08f4a1f6.css" integrity="sha256-2f3b/&#43;byfmmYXcX&#43;BHHNsOV/v0d1cUvD2Eesywj0ofY=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="/css/coder.min.543dc3579b222ee2eec7bc52e75060428d931ade1c0263624cf4be95f0f467a2.css" integrity="sha256-VD3DV5siLuLux7xS51BgQo2TGt4cAmNiTPS&#43;lfD0Z6I=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -70,7 +87,7 @@ Python Code -&gt; ≈2.22 seconds PyCUDA – single stream -&gt; ≈0.0018 secon
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 
-    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Hugo 0.160.1">
   </head>
 
   
@@ -114,6 +131,8 @@ Python Code -&gt; ≈2.22 seconds PyCUDA – single stream -&gt; ≈0.0018 secon
           
           
             
+          
+            
               
                 <li class="navigation-item menu-separator">
                   <span>|</span>
@@ -123,8 +142,6 @@ Python Code -&gt; ≈2.22 seconds PyCUDA – single stream -&gt; ≈0.0018 secon
               <li class="navigation-item">
                 <a href="https://vicenteguerrero.tech/de-de/">Deutsch</a>
               </li>
-            
-          
             
           
         
@@ -150,8 +167,8 @@ Python Code -&gt; ≈2.22 seconds PyCUDA – single stream -&gt; ≈0.0018 secon
           <div class="date">
             <span class="posted-on">
               <i class="fa fa-calendar" aria-hidden="true"></i>
-              <time datetime='0001-01-01T00:00:00Z'>
-                Oktober 10, 1010
+              <time datetime='2020-10-10T00:00:00Z'>
+                April 100, 10106
               </time>
             </span>
             <span class="reading-time">
@@ -198,7 +215,7 @@ Python Code -&gt; ≈2.22 seconds PyCUDA – single stream -&gt; ≈0.0018 secon
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">from</span> string <span style="color:#fff;font-weight:bold">import</span> Template
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">from</span> string <span style="color:#fff;font-weight:bold">import</span> Template
 </span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">import</span> pycuda.driver <span style="color:#fff;font-weight:bold">as</span> drv
 </span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">import</span> pycuda.tools
 </span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">import</span> pycuda.autoinit

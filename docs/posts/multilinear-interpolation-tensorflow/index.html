@@ -10,28 +10,54 @@
     
 
     <meta name="author" content="Vicente Guerrero">
-    <meta name="description" content="Extension of the tf.image.resize_bilinear to the N dimensional case Visit the github repository for the full code. GitHub
+    <meta name="description" content="
+  Extension of the tf.image.resize_bilinear to the N dimensional case
+  
+    
+  
+
+Visit the github repository for the full code. GitHub
+The function extends the functionality of tf.image.resize_bilinear for N dimensional Tensors.
+
+  Strategy
+  
+    
+  
+
+The strategy is fairly simple, tensors are interpolated two dimensions at a time using the already existant tf.image.resize_bilinear function.
+
+
+  Test
+  
+    
+  
+
+Building a 3D volume using a black image, an android image and a white image. [1, 245, 206, 3, 4] [1 batch, height, width, depth, 4 channels]">
+    <meta name="keywords" content="backend,developer,personal,software">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Multilinear Interpolation in tensorflow">
+  <meta name="twitter:description" content="Extension of the tf.image.resize_bilinear to the N dimensional case Visit the github repository for the full code. GitHub
 The function extends the functionality of tf.image.resize_bilinear for N dimensional Tensors.
 Strategy The strategy is fairly simple, tensors are interpolated two dimensions at a time using the already existant tf.image.resize_bilinear function.
 Test Building a 3D volume using a black image, an android image and a white image. [1, 245, 206, 3, 4] [1 batch, height, width, depth, 4 channels]">
-    <meta name="keywords" content="backend,developer,personal,software">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Multilinear Interpolation in tensorflow"/>
-<meta name="twitter:description" content="Extension of the tf.image.resize_bilinear to the N dimensional case Visit the github repository for the full code. GitHub
+    <meta property="og:url" content="https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/">
+  <meta property="og:site_name" content="Vicente Guerrero">
+  <meta property="og:title" content="Multilinear Interpolation in tensorflow">
+  <meta property="og:description" content="Extension of the tf.image.resize_bilinear to the N dimensional case Visit the github repository for the full code. GitHub
 The function extends the functionality of tf.image.resize_bilinear for N dimensional Tensors.
 Strategy The strategy is fairly simple, tensors are interpolated two dimensions at a time using the already existant tf.image.resize_bilinear function.
-Test Building a 3D volume using a black image, an android image and a white image. [1, 245, 206, 3, 4] [1 batch, height, width, depth, 4 channels]"/>
-
-    <meta property="og:title" content="Multilinear Interpolation in tensorflow" />
-<meta property="og:description" content="Extension of the tf.image.resize_bilinear to the N dimensional case Visit the github repository for the full code. GitHub
-The function extends the functionality of tf.image.resize_bilinear for N dimensional Tensors.
-Strategy The strategy is fairly simple, tensors are interpolated two dimensions at a time using the already existant tf.image.resize_bilinear function.
-Test Building a 3D volume using a black image, an android image and a white image. [1, 245, 206, 3, 4] [1 batch, height, width, depth, 4 channels]" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/" /><meta property="article:section" content="posts" />
-
-
+Test Building a 3D volume using a black image, an android image and a white image. [1, 245, 206, 3, 4] [1 batch, height, width, depth, 4 channels]">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-10-10T00:00:00+00:00">
+    <meta property="article:modified_time" content="2020-10-10T00:00:00+00:00">
+    <meta property="article:tag" content="Tensorflow">
+    <meta property="article:tag" content="Image Processing">
+    <meta property="article:tag" content="Machine Learning">
 
 
     <title>
@@ -47,7 +73,7 @@ Test Building a 3D volume using a black image, an android image and a white imag
     
       
       
-      <link rel="stylesheet" href="/css/coder.min.d9fddbffe6f27e69985dc5fe0471cdb0e57fbf4775714bc3d847accb08f4a1f6.css" integrity="sha256-2f3b/&#43;byfmmYXcX&#43;BHHNsOV/v0d1cUvD2Eesywj0ofY=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="/css/coder.min.543dc3579b222ee2eec7bc52e75060428d931ade1c0263624cf4be95f0f467a2.css" integrity="sha256-VD3DV5siLuLux7xS51BgQo2TGt4cAmNiTPS&#43;lfD0Z6I=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -70,7 +96,7 @@ Test Building a 3D volume using a black image, an android image and a white imag
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 
-    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Hugo 0.160.1">
   </head>
 
   
@@ -114,6 +140,8 @@ Test Building a 3D volume using a black image, an android image and a white imag
           
           
             
+          
+            
               
                 <li class="navigation-item menu-separator">
                   <span>|</span>
@@ -123,8 +151,6 @@ Test Building a 3D volume using a black image, an android image and a white imag
               <li class="navigation-item">
                 <a href="https://vicenteguerrero.tech/de-de/">Deutsch</a>
               </li>
-            
-          
             
           
         
@@ -150,8 +176,8 @@ Test Building a 3D volume using a black image, an android image and a white imag
           <div class="date">
             <span class="posted-on">
               <i class="fa fa-calendar" aria-hidden="true"></i>
-              <time datetime='0001-01-01T00:00:00Z'>
-                Oktober 10, 1010
+              <time datetime='2020-10-10T00:00:00Z'>
+                April 100, 10106
               </time>
             </span>
             <span class="reading-time">
@@ -214,7 +240,7 @@ Test Building a 3D volume using a black image, an android image and a white imag
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">import</span> tensorflow <span style="color:#fff;font-weight:bold">as</span> tf
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">import</span> tensorflow <span style="color:#fff;font-weight:bold">as</span> tf
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">def</span> _resize_by_axis_trilinear(images, size_0, size_1, ax):
@@ -270,7 +296,7 @@ Test Building a 3D volume using a black image, an android image and a white imag
 </span></span><span style="display:flex;"><span>        resized = resize_tetralinear(images, size)
 </span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">else</span>:
 </span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">raise</span> NotImplementedError(<span style="color:#0ff;font-weight:bold">&#39;resize_multilinear_tf: dimensions </span><span style="color:#0ff;font-weight:bold">\
-</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold"></span><span style="color:#0ff;font-weight:bold">                                    higuer than 4 are not supported.&#39;</span>)
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">                                    higuer than 4 are not supported.&#39;</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">return</span> resized
 </span></span></code></pre></div>
       </div>

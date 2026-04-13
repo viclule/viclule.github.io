@@ -1,5 +1,5 @@
 +++ 
-date = "2020/10/10"
+date = "2020-10-10"
 title = "Harris corner detector on PyCUDA"
 slug = "pycuda-corner-detector" 
 tags = ["pycuda", "image processing"]

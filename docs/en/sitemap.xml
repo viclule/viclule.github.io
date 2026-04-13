@@ -2,6 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://vicenteguerrero.tech/tags/algorithms/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vicenteguerrero.tech/posts/pycuda-corner-detector/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vicenteguerrero.tech/tags/image-processing/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vicenteguerrero.tech/tags/machine-learning/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vicenteguerrero.tech/tags/optimization/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vicenteguerrero.tech/posts/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vicenteguerrero.tech/tags/pycuda/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vicenteguerrero.tech/posts/swarm-particle-interpolation/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vicenteguerrero.tech/tags/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="https://vicenteguerrero.tech/de-de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://vicenteguerrero.tech/tags/"
+                />
+  </url><url>
+    <loc>https://vicenteguerrero.tech/tags/tensorflow/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vicenteguerrero.tech/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-de"
+                href="https://vicenteguerrero.tech/de-de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://vicenteguerrero.tech/"
+                />
+  </url><url>
     <loc>https://vicenteguerrero.tech/about/</loc>
     <xhtml:link
                 rel="alternate"
@@ -10,25 +66,11 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://vicenteguerrero.tech/about/"
                 />
   </url><url>
-    <loc>https://vicenteguerrero.tech/tags/algorithms/</loc>
-  </url><url>
     <loc>https://vicenteguerrero.tech/projects/backend-development/</loc>
-  </url><url>
-    <loc>https://vicenteguerrero.tech/posts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="https://vicenteguerrero.tech/de-de/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://vicenteguerrero.tech/posts/"
-                />
   </url><url>
     <loc>https://vicenteguerrero.tech/categories/</loc>
     <xhtml:link
@@ -38,7 +80,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://vicenteguerrero.tech/categories/"
                 />
   </url><url>
@@ -50,25 +92,11 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://vicenteguerrero.tech/contact/"
                 />
   </url><url>
-    <loc>https://vicenteguerrero.tech/posts/pycuda-corner-detector/</loc>
-  </url><url>
-    <loc>https://vicenteguerrero.tech/tags/image-processing/</loc>
-  </url><url>
-    <loc>https://vicenteguerrero.tech/tags/machine-learning/</loc>
-  </url><url>
-    <loc>https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/</loc>
-  </url><url>
-    <loc>https://vicenteguerrero.tech/tags/optimization/</loc>
-  </url><url>
-    <loc>https://vicenteguerrero.tech/posts/</loc>
-  </url><url>
     <loc>https://vicenteguerrero.tech/projects/</loc>
-  </url><url>
-    <loc>https://vicenteguerrero.tech/tags/pycuda/</loc>
   </url><url>
     <loc>https://vicenteguerrero.tech/projects/rust/</loc>
   </url><url>
@@ -80,48 +108,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://vicenteguerrero.tech/series/"
-                />
-  </url><url>
-    <loc>https://vicenteguerrero.tech/projects/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="https://vicenteguerrero.tech/de-de/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://vicenteguerrero.tech/projects/"
-                />
-  </url><url>
-    <loc>https://vicenteguerrero.tech/posts/swarm-particle-interpolation/</loc>
-  </url><url>
-    <loc>https://vicenteguerrero.tech/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="https://vicenteguerrero.tech/de-de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://vicenteguerrero.tech/tags/"
-                />
-  </url><url>
-    <loc>https://vicenteguerrero.tech/tags/tensorflow/</loc>
-  </url><url>
-    <loc>https://vicenteguerrero.tech/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="https://vicenteguerrero.tech/de-de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://vicenteguerrero.tech/"
                 />
   </url>
 </urlset>

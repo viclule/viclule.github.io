@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>algorithms on Vicente Guerrero</title>
+    <title>Algorithms on Vicente Guerrero</title>
     <link>https://vicenteguerrero.tech/tags/algorithms/</link>
-    <description>Recent content in algorithms on Vicente Guerrero</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://vicenteguerrero.tech/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Algorithms on Vicente Guerrero</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vicenteguerrero.tech/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Swarm Particle Interpolation</title>
       <link>https://vicenteguerrero.tech/posts/swarm-particle-interpolation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://vicenteguerrero.tech/posts/swarm-particle-interpolation/</guid>
-      <description>Adapted to the N dimensional case Visit the github repository for the full code. GitHub
-It is a professional implementation based on the article from Iran Macedo.
-Theory “In computational science, particle swarm optimization (PSO) [1] is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. It solves a problem by having a population of candidate solutions, here dubbed particles, and moving these particles around in the search-space according to simple mathematical formulae over the particle&amp;rsquo;s position and velocity.</description>
+      <description>&lt;h3 id=&#34;adapted-to-the-n-dimensional-case&#34;&gt;&#xA;  Adapted to the N dimensional case&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#adapted-to-the-n-dimensional-case&#34;&gt;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Visit the github repository for the full code. &lt;a href=&#34;https://github.com/viclule/particle_swarm_optimization_py&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It is a professional implementation based on the &lt;a href=&#34;https://medium.com/analytics-vidhya/implementing-particle-swarm-optimization-pso-algorithm-in-python-9efc2eb179a6&#34;&gt;article from Iran Macedo&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;theory&#34;&gt;&#xA;  Theory&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#theory&#34;&gt;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../images/posts/swarm_particle_optimization%20copy.png&#34; alt=&#34;Theory&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;“In computational science, particle swarm optimization (PSO) [1] is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. It solves a problem by having a population of candidate solutions, here dubbed particles, and moving these particles around in the search-space according to simple mathematical formulae over the particle&amp;rsquo;s position and velocity. Each particle&amp;rsquo;s movement is influenced by its local best known position, but is also guided toward the best known positions in the search-space, which are updated as better positions are found by other particles. This is expected to move the swarm toward the best solutions.” Wikipedia&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

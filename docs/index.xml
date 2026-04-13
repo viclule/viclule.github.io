@@ -4,108 +4,58 @@
     <title>Vicente Guerrero</title>
     <link>https://vicenteguerrero.tech/</link>
     <description>Recent content on Vicente Guerrero</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://vicenteguerrero.tech/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vicenteguerrero.tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Harris corner detector on PyCUDA</title>
+      <link>https://vicenteguerrero.tech/posts/pycuda-corner-detector/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://vicenteguerrero.tech/posts/pycuda-corner-detector/</guid>
+      <description>&lt;h3 id=&#34;a-first-intruduction-to-gpu-programming&#34;&gt;&#xA;  A first intruduction to GPU programming&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#a-first-intruduction-to-gpu-programming&#34;&gt;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Visit the github repository for the full code. &lt;a href=&#34;https://github.com/viclule/pycuda_harris_corner_detector&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The function devides the image in four different parts to process them on different streams.&lt;/p&gt;&#xA;&lt;p&gt;These are the execution times for the different implementations:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python Code -&amp;gt; ≈2.22 seconds&lt;/li&gt;&#xA;&lt;li&gt;PyCUDA – single stream -&amp;gt; ≈0.0018 seconds&lt;/li&gt;&#xA;&lt;li&gt;PyCUDA – four streams (with concurrency) -&amp;gt; ≈0.0015 seconds&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This is the image used to test the code:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Multilinear Interpolation in tensorflow</title>
+      <link>https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/</guid>
+      <description>&lt;h3 id=&#34;extension-of-the-tfimageresize_bilinear-to-the-n-dimensional-case&#34;&gt;&#xA;  Extension of the tf.image.resize_bilinear to the N dimensional case&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#extension-of-the-tfimageresize_bilinear-to-the-n-dimensional-case&#34;&gt;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Visit the github repository for the full code. &lt;a href=&#34;https://github.com/viclule/image_resize_n_linear&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The function extends the functionality of tf.image.resize_bilinear for N dimensional Tensors.&lt;/p&gt;&#xA;&lt;h3 id=&#34;strategy&#34;&gt;&#xA;  Strategy&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#strategy&#34;&gt;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;The strategy is fairly simple, tensors are interpolated two dimensions at a time using the already existant tf.image.resize_bilinear function.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../images/posts/multilinear_interpolation_tensorflow_2.png&#34; alt=&#34;Strategy&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;test&#34;&gt;&#xA;  Test&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#test&#34;&gt;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Building a 3D volume using a black image, an android image and a white image. [1, 245, 206, 3, 4] [1 batch, height, width, depth, 4 channels]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Swarm Particle Interpolation</title>
+      <link>https://vicenteguerrero.tech/posts/swarm-particle-interpolation/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://vicenteguerrero.tech/posts/swarm-particle-interpolation/</guid>
+      <description>&lt;h3 id=&#34;adapted-to-the-n-dimensional-case&#34;&gt;&#xA;  Adapted to the N dimensional case&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#adapted-to-the-n-dimensional-case&#34;&gt;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Visit the github repository for the full code. &lt;a href=&#34;https://github.com/viclule/particle_swarm_optimization_py&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It is a professional implementation based on the &lt;a href=&#34;https://medium.com/analytics-vidhya/implementing-particle-swarm-optimization-pso-algorithm-in-python-9efc2eb179a6&#34;&gt;article from Iran Macedo&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;theory&#34;&gt;&#xA;  Theory&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#theory&#34;&gt;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../images/posts/swarm_particle_optimization%20copy.png&#34; alt=&#34;Theory&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;“In computational science, particle swarm optimization (PSO) [1] is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. It solves a problem by having a population of candidate solutions, here dubbed particles, and moving these particles around in the search-space according to simple mathematical formulae over the particle&amp;rsquo;s position and velocity. Each particle&amp;rsquo;s movement is influenced by its local best known position, but is also guided toward the best known positions in the search-space, which are updated as better positions are found by other particles. This is expected to move the swarm toward the best solutions.” Wikipedia&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About</title>
       <link>https://vicenteguerrero.tech/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://vicenteguerrero.tech/about/</guid>
-      <description>Hello there! I am a science enthusiast with extensive experience in software development in a variety of industries. Over ten years of experience, since 2016 focusing on python, rust and java related languages for the development and deployment of microservices, backend and data-based applications development.
-I hold a BS in mechanical engineering, from the technical university of Celaya, Mexico, and a MS degree in mechatronics from the technical university of Aachen (FH Aachen).</description>
+      <description>&lt;p&gt;Hello there! I am a science enthusiast and software engineer with over ten years of experience building data-driven applications across a variety of industries. Since 2016, I have been working with Python, TypeScript, Rust, and Java to develop and deploy microservices, backend systems, and data-dirven applications.&lt;/p&gt;&#xA;&lt;p&gt;I hold a BS in Mechanical Engineering and an MS in Mechatronics from &lt;a href=&#34;https://www.fh-aachen.de/&#34;&gt;FH Aachen&lt;/a&gt;, Germany. This engineering background gives me a practical understanding of both technical systems and real-world business processes — a foundation I bring to every project.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Backend Development and Microservices</title>
       <link>https://vicenteguerrero.tech/projects/backend-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://vicenteguerrero.tech/projects/backend-development/</guid>
-      <description>“In computer programming, an application programming interface (API) is a set of subroutine definitions, communication protocols, and tools for building software. In general terms, it is a set of clearly defined methods of communication among various components.
-A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer.” Wikipedia
-Backend development in Python/Rust/Java/Kotlin:
-Integration with databases Integration in CI/CD Deployment to Kubernetes Deployment to a cloud service, such as AWS print(&amp;#39;it can be done!</description>
+      <description>&lt;p&gt;“In computer programming, an application programming interface (API) is a set of subroutine definitions, communication protocols, and tools for building software. In general terms, it is a set of clearly defined methods of communication among various components.&lt;/p&gt;&#xA;&lt;p&gt;A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer.” Wikipedia&lt;/p&gt;&#xA;&lt;p&gt;Backend development in Python/Rust/Java/Kotlin:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Integration with databases&lt;/li&gt;&#xA;&lt;li&gt;Integration in CI/CD&lt;/li&gt;&#xA;&lt;li&gt;Deployment to Kubernetes&lt;/li&gt;&#xA;&lt;li&gt;Deployment to a cloud service, such as AWS&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;it can be done!&amp;#39;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
-    <item>
-      <title>Blog</title>
-      <link>https://vicenteguerrero.tech/posts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vicenteguerrero.tech/posts/</guid>
-      <description>Multilinear Interpolation in tensorflow
-Harris corner detector on PyCUDA
-Swarm Particle Interpolation</description>
-    </item>
-    
     <item>
       <title>Contact me</title>
       <link>https://vicenteguerrero.tech/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://vicenteguerrero.tech/contact/</guid>
-      <description>Vicente Guerrero
-Mannsfelderstr. 1
-Cologne 50968
-Germany
-Email: vic.lule@gmail.com</description>
+      <description>&lt;p&gt;Vicente Guerrero&lt;br&gt;&#xA;Mannsfelderstr. 1&lt;br&gt;&#xA;Cologne 50968&lt;br&gt;&#xA;Germany&lt;/p&gt;&#xA;&lt;p&gt;Email: &lt;a href=&#34;mailto:vic.lule@gmail.com&#34;&gt;vic.lule@gmail.com&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Harris corner detector on PyCUDA</title>
-      <link>https://vicenteguerrero.tech/posts/pycuda-corner-detector/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vicenteguerrero.tech/posts/pycuda-corner-detector/</guid>
-      <description>A first intruduction to GPU programming Visit the github repository for the full code. GitHub
-The function devides the image in four different parts to process them on different streams.
-These are the execution times for the different implementations:
-Python Code -&amp;gt; ≈2.22 seconds PyCUDA – single stream -&amp;gt; ≈0.0018 seconds PyCUDA – four streams (with concurrency) -&amp;gt; ≈0.0015 seconds This is the image used to test the code:</description>
-    </item>
-    
-    <item>
-      <title>Multilinear Interpolation in tensorflow</title>
-      <link>https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/</guid>
-      <description>Extension of the tf.image.resize_bilinear to the N dimensional case Visit the github repository for the full code. GitHub
-The function extends the functionality of tf.image.resize_bilinear for N dimensional Tensors.
-Strategy The strategy is fairly simple, tensors are interpolated two dimensions at a time using the already existant tf.image.resize_bilinear function.
-Test Building a 3D volume using a black image, an android image and a white image. [1, 245, 206, 3, 4] [1 batch, height, width, depth, 4 channels]</description>
-    </item>
-    
     <item>
       <title>Rust&amp;Python</title>
       <link>https://vicenteguerrero.tech/projects/rust/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://vicenteguerrero.tech/projects/rust/</guid>
-      <description>Python is great! Yes, but sometimes the language just can not do things fast enough. Luckily, the Python Community is very dynamic and open to ideas to solve this. One of this, is to use Rust in combination with Python to accelerate your code.
-I can help you to identify and migrate to Rust the sections of your code that would benefit from it, keeping a Python API to keep the life of your developers simple.</description>
+      <description>&lt;p&gt;Python is great! Yes, but sometimes the language just can not do things fast enough. Luckily, the Python Community is very dynamic and open to ideas to solve this. One of this, is to use Rust in combination with Python to accelerate your code.&lt;/p&gt;&#xA;&lt;p&gt;I can help you to identify and migrate to Rust the sections of your code that would benefit from it, keeping a Python API to keep the life of your developers simple.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Services</title>
-      <link>https://vicenteguerrero.tech/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vicenteguerrero.tech/projects/</guid>
-      <description>Backend Development and Microservices
-Rust&amp;amp;Python</description>
-    </item>
-    
-    <item>
-      <title>Swarm Particle Interpolation</title>
-      <link>https://vicenteguerrero.tech/posts/swarm-particle-interpolation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vicenteguerrero.tech/posts/swarm-particle-interpolation/</guid>
-      <description>Adapted to the N dimensional case Visit the github repository for the full code. GitHub
-It is a professional implementation based on the article from Iran Macedo.
-Theory “In computational science, particle swarm optimization (PSO) [1] is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. It solves a problem by having a population of candidate solutions, here dubbed particles, and moving these particles around in the search-space according to simple mathematical formulae over the particle&amp;rsquo;s position and velocity.</description>
-    </item>
-    
   </channel>
 </rss>

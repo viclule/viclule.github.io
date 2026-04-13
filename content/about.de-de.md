@@ -4,16 +4,16 @@ title = "About"
 slug = "about"
 +++
 
-Hello there! I am a science enthusiast with extensive experience in software development in a variety of industries. Over ten years of experience, since 2016 focusing on python, rust and java related languages for the development and deployment of microservices, backend and data-based applications development.
+Hallo! Ich bin ein naturwissenschaftlich begeisterter Softwareentwickler mit über zehn Jahren Erfahrung in der Entwicklung datengetriebener Anwendungen in verschiedenen Branchen. Seit 2016 arbeite ich mit Python, TypeScript, Rust und Java, um Microservices, Backend-Systeme und datenintensive Anwendungen zu entwickeln und bereitzustellen.
 
-I hold a BS in [mechanical engineering](http://itcelaya.edu.mx/), from the technical university of Celaya, Mexico, and a MS degree in mechatronics from the technical university of Aachen ([FH Aachen](https://www.fh-aachen.de/)). Thanks to this I can understand engineering and computers.
+Ich habe einen Bachelor in Maschinenbau sowie einen Master in Mechatronik von der [FH Aachen](https://www.fh-aachen.de/). Dieser ingenieurwissenschaftliche Hintergrund gibt mir ein fundiertes Verständnis sowohl technischer Systeme als auch realer Geschäftsprozesse — eine Grundlage, die ich in jedes Projekt einbringe.
 
-For the first part of my carrer I focused in the developmet of algorithms for the alignment of optical components in optronic devices. First developing innovative technologies in [IPT](https://www.ipt.fraunhofer.de/en.html) Fraunhofer Institute and later bringing them to market with our industry partners.
+Meine Karriere begann in Forschung und Entwicklung am [Fraunhofer IPT](https://www.ipt.fraunhofer.de/en.html), wo ich daran gearbeitet habe, innovative Technologien gemeinsam mit Industriepartnern zur Marktreife zu bringen. In den letzten neun Jahren habe ich Softwareprojekte für Unternehmen wie Deutsche Telekom, Otto Group, Telekom Außendienst und Atlas Copco umgesetzt.
 
-For the last seven years I have been working in projects for companies like Deutsche Telekom, Otto Group, Telekom Aussendienst and Atlas Copco.
+Heute liegt mein Fokus darauf, Unternehmen bei ihren ersten — oder nächsten — Schritten mit **Agentischer KI** zu unterstützen. Ich helfe Organisationen dabei, KI-Agenten in bestehende Arbeitsabläufe zu integrieren und sie sicher mit Unternehmensdaten zu verbinden — unter Berücksichtigung von Berechtigungsstufen, Zugriffskontrollen und der Datentrennung zwischen Teams und Rollen — und so komplexe, manuelle Prozesse in intelligente, automatisierte Pipelines zu verwandeln.
 
-Do you need help writing complex data-based applications? Maybe I can be of help. 
+Ob Sie gerade erkunden, wo KI-Agenten einen Mehrwert schaffen können, oder bereits bereit sind, Ihr erstes Produktivsystem zu entwickeln — ich bin hier, um Ihnen den Einstieg zu erleichtern.
 
-Happily, I was accepted in [Mensa](https://www.mensa.org/) in 2018.
+2018 wurde ich als Mitglied bei [Mensa](https://www.mensa.org/) aufgenommen.
 
-
+![Mensa](../../images/about/mensa_member_small.png)

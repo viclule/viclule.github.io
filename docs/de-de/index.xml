@@ -4,48 +4,22 @@
     <title>Vicente Guerrero</title>
     <link>https://vicenteguerrero.tech/de-de/</link>
     <description>Recent content on Vicente Guerrero</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://vicenteguerrero.tech/de-de/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://vicenteguerrero.tech/de-de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://vicenteguerrero.tech/de-de/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://vicenteguerrero.tech/de-de/about/</guid>
-      <description>Hello there! I am a science enthusiast with extensive experience in software development in a variety of industries. Over ten years of experience, since 2016 focusing on python, rust and java related languages for the development and deployment of microservices, backend and data-based applications development.
-I hold a BS in mechanical engineering, from the technical university of Celaya, Mexico, and a MS degree in mechatronics from the technical university of Aachen (FH Aachen).</description>
+      <description>&lt;p&gt;Hallo! Ich bin ein naturwissenschaftlich begeisterter Softwareentwickler mit über zehn Jahren Erfahrung in der Entwicklung datengetriebener Anwendungen in verschiedenen Branchen. Seit 2016 arbeite ich mit Python, TypeScript, Rust und Java, um Microservices, Backend-Systeme und datenintensive Anwendungen zu entwickeln und bereitzustellen.&lt;/p&gt;&#xA;&lt;p&gt;Ich habe einen Bachelor in Maschinenbau sowie einen Master in Mechatronik von der &lt;a href=&#34;https://www.fh-aachen.de/&#34;&gt;FH Aachen&lt;/a&gt;. Dieser ingenieurwissenschaftliche Hintergrund gibt mir ein fundiertes Verständnis sowohl technischer Systeme als auch realer Geschäftsprozesse — eine Grundlage, die ich in jedes Projekt einbringe.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Blog</title>
-      <link>https://vicenteguerrero.tech/de-de/posts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vicenteguerrero.tech/de-de/posts/</guid>
-      <description>Nothing to see here.</description>
-    </item>
-    
-    <item>
-      <title>Dienste</title>
-      <link>https://vicenteguerrero.tech/de-de/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vicenteguerrero.tech/de-de/projects/</guid>
-      <description>Nothing to see here.</description>
-    </item>
-    
     <item>
       <title>Kontakt</title>
       <link>https://vicenteguerrero.tech/de-de/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://vicenteguerrero.tech/de-de/contact/</guid>
-      <description>Vicente Guerrero
-Mannsfelderstr. 1
-Cologne 50968
-Germany
-Email: vic.lule@gmail.com</description>
+      <description>&lt;p&gt;Vicente Guerrero&lt;br&gt;&#xA;Mannsfelderstr. 1&lt;br&gt;&#xA;Cologne 50968&lt;br&gt;&#xA;Germany&lt;/p&gt;&#xA;&lt;p&gt;Email: &lt;a href=&#34;mailto:vic.lule@gmail.com&#34;&gt;vic.lule@gmail.com&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

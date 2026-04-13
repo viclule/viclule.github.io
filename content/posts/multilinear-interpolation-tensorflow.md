@@ -1,5 +1,5 @@
 +++ 
-date = "2020/10/10"
+date = "2020-10-10"
 title = "Multilinear Interpolation in tensorflow"
 slug = "multilinear-interpolation-tensorflow" 
 tags = ["tensorflow", "image processing", "machine learning"]

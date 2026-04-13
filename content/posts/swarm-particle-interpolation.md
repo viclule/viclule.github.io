@@ -1,5 +1,5 @@
 +++ 
-date = "2020/10/10"
+date = "2020-10-10"
 title = "Swarm Particle Interpolation"
 slug = "swarm-particle-interpolation" 
 tags = ["optimization", "algorithms"]

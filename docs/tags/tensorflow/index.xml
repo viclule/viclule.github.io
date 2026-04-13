@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tensorflow on Vicente Guerrero</title>
+    <title>Tensorflow on Vicente Guerrero</title>
     <link>https://vicenteguerrero.tech/tags/tensorflow/</link>
-    <description>Recent content in tensorflow on Vicente Guerrero</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://vicenteguerrero.tech/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Tensorflow on Vicente Guerrero</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vicenteguerrero.tech/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multilinear Interpolation in tensorflow</title>
       <link>https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://vicenteguerrero.tech/posts/multilinear-interpolation-tensorflow/</guid>
-      <description>Extension of the tf.image.resize_bilinear to the N dimensional case Visit the github repository for the full code. GitHub
-The function extends the functionality of tf.image.resize_bilinear for N dimensional Tensors.
-Strategy The strategy is fairly simple, tensors are interpolated two dimensions at a time using the already existant tf.image.resize_bilinear function.
-Test Building a 3D volume using a black image, an android image and a white image. [1, 245, 206, 3, 4] [1 batch, height, width, depth, 4 channels]</description>
+      <description>&lt;h3 id=&#34;extension-of-the-tfimageresize_bilinear-to-the-n-dimensional-case&#34;&gt;&#xA;  Extension of the tf.image.resize_bilinear to the N dimensional case&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#extension-of-the-tfimageresize_bilinear-to-the-n-dimensional-case&#34;&gt;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Visit the github repository for the full code. &lt;a href=&#34;https://github.com/viclule/image_resize_n_linear&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The function extends the functionality of tf.image.resize_bilinear for N dimensional Tensors.&lt;/p&gt;&#xA;&lt;h3 id=&#34;strategy&#34;&gt;&#xA;  Strategy&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#strategy&#34;&gt;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;The strategy is fairly simple, tensors are interpolated two dimensions at a time using the already existant tf.image.resize_bilinear function.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../images/posts/multilinear_interpolation_tensorflow_2.png&#34; alt=&#34;Strategy&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;test&#34;&gt;&#xA;  Test&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#test&#34;&gt;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Building a 3D volume using a black image, an android image and a white image. [1, 245, 206, 3, 4] [1 batch, height, width, depth, 4 channels]&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

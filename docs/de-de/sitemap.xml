@@ -5,7 +5,7 @@
     <loc>https://vicenteguerrero.tech/de-de/about/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://vicenteguerrero.tech/about/"
                 />
     <xhtml:link
@@ -14,22 +14,10 @@
                 href="https://vicenteguerrero.tech/de-de/about/"
                 />
   </url><url>
-    <loc>https://vicenteguerrero.tech/de-de/posts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://vicenteguerrero.tech/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="https://vicenteguerrero.tech/de-de/posts/"
-                />
-  </url><url>
     <loc>https://vicenteguerrero.tech/de-de/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://vicenteguerrero.tech/categories/"
                 />
     <xhtml:link
@@ -38,22 +26,10 @@
                 href="https://vicenteguerrero.tech/de-de/categories/"
                 />
   </url><url>
-    <loc>https://vicenteguerrero.tech/de-de/projects/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://vicenteguerrero.tech/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="https://vicenteguerrero.tech/de-de/projects/"
-                />
-  </url><url>
     <loc>https://vicenteguerrero.tech/de-de/contact/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://vicenteguerrero.tech/contact/"
                 />
     <xhtml:link
@@ -65,7 +41,7 @@
     <loc>https://vicenteguerrero.tech/de-de/series/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://vicenteguerrero.tech/series/"
                 />
     <xhtml:link
@@ -77,7 +53,7 @@
     <loc>https://vicenteguerrero.tech/de-de/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://vicenteguerrero.tech/tags/"
                 />
     <xhtml:link
@@ -89,7 +65,7 @@
     <loc>https://vicenteguerrero.tech/de-de/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://vicenteguerrero.tech/"
                 />
     <xhtml:link
